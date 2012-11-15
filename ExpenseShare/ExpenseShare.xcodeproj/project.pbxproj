@@ -18,10 +18,10 @@
 		B956438F164C7A1E0045DF92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B956438E164C7A1E0045DF92 /* Default-568h@2x.png */; };
 		B9564392164C7A1E0045DF92 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9564390164C7A1E0045DF92 /* MainStoryboard_iPhone.storyboard */; };
 		B9564395164C7A1E0045DF92 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9564393164C7A1E0045DF92 /* MainStoryboard_iPad.storyboard */; };
-		B9564398164C7A1E0045DF92 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9564397164C7A1E0045DF92 /* FirstViewController.m */; };
+		B9564398164C7A1E0045DF92 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9564397164C7A1E0045DF92 /* HomeViewController.m */; };
 		B956439A164C7A1E0045DF92 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B9564399164C7A1E0045DF92 /* first.png */; };
 		B956439C164C7A1E0045DF92 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B956439B164C7A1E0045DF92 /* first@2x.png */; };
-		B956439F164C7A1E0045DF92 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B956439E164C7A1E0045DF92 /* SecondViewController.m */; };
+		B956439F164C7A1E0045DF92 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B956439E164C7A1E0045DF92 /* GroupViewController.m */; };
 		B95643A1164C7A1E0045DF92 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B95643A0164C7A1E0045DF92 /* second.png */; };
 		B95643A3164C7A1E0045DF92 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B95643A2164C7A1E0045DF92 /* second@2x.png */; };
 		B95643AB164C7A1E0045DF92 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95643AA164C7A1E0045DF92 /* SenTestingKit.framework */; };
@@ -57,12 +57,12 @@
 		B956438E164C7A1E0045DF92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B9564391164C7A1E0045DF92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B9564394164C7A1E0045DF92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B9564396164C7A1E0045DF92 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B9564397164C7A1E0045DF92 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B9564396164C7A1E0045DF92 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B9564397164C7A1E0045DF92 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		B9564399164C7A1E0045DF92 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		B956439B164C7A1E0045DF92 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		B956439D164C7A1E0045DF92 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B956439E164C7A1E0045DF92 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B956439D164C7A1E0045DF92 /* GroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		B956439E164C7A1E0045DF92 /* GroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
 		B95643A0164C7A1E0045DF92 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		B95643A2164C7A1E0045DF92 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		B95643A9164C7A1E0045DF92 /* ExpenseShareTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseShareTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,12 +134,12 @@
 				B9564388164C7A1E0045DF92 /* AppDelegate.m */,
 				B9564390164C7A1E0045DF92 /* MainStoryboard_iPhone.storyboard */,
 				B9564393164C7A1E0045DF92 /* MainStoryboard_iPad.storyboard */,
-				B9564396164C7A1E0045DF92 /* FirstViewController.h */,
-				B9564397164C7A1E0045DF92 /* FirstViewController.m */,
+				B9564396164C7A1E0045DF92 /* HomeViewController.h */,
+				B9564397164C7A1E0045DF92 /* HomeViewController.m */,
 				B9564399164C7A1E0045DF92 /* first.png */,
 				B956439B164C7A1E0045DF92 /* first@2x.png */,
-				B956439D164C7A1E0045DF92 /* SecondViewController.h */,
-				B956439E164C7A1E0045DF92 /* SecondViewController.m */,
+				B956439D164C7A1E0045DF92 /* GroupViewController.h */,
+				B956439E164C7A1E0045DF92 /* GroupViewController.m */,
 				B95643A0164C7A1E0045DF92 /* second.png */,
 				B95643A2164C7A1E0045DF92 /* second@2x.png */,
 				B956437F164C7A1E0045DF92 /* Supporting Files */,
@@ -297,8 +297,8 @@
 			files = (
 				B9564385164C7A1E0045DF92 /* main.m in Sources */,
 				B9564389164C7A1E0045DF92 /* AppDelegate.m in Sources */,
-				B9564398164C7A1E0045DF92 /* FirstViewController.m in Sources */,
-				B956439F164C7A1E0045DF92 /* SecondViewController.m in Sources */,
+				B9564398164C7A1E0045DF92 /* HomeViewController.m in Sources */,
+				B956439F164C7A1E0045DF92 /* GroupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +482,7 @@
 				B95643BD164C7A1E0045DF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B95643BE164C7A1E0045DF92 /* Build configuration list for PBXNativeTarget "ExpenseShareTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				B95643C0164C7A1E0045DF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
