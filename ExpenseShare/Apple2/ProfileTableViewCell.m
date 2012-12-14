@@ -36,7 +36,7 @@
         profile = newProfile;
         
         profileImage = [profileImage initWithImage:[profile getImage]];
-        oweLabel.text = [profile getOweAsString];
+        oweLabel.text = [profile getIndividualOweAsString];
         owedLabel.text = [profile getOwedAsString];
     }
 }

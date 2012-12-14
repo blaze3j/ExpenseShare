@@ -7,13 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Event.h"
 
 @interface EventTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UITextView *eventTextView;
 
-@property (nonatomic, weak) IBOutlet UILabel *eventLabel;
-@property (nonatomic, weak) IBOutlet UILabel *dateLabel;
-
-@property (nonatomic, strong) Event *event;
+@property (nonatomic, strong) NSArray* events;
 
 @end

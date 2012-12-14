@@ -41,8 +41,8 @@
 		B929FE3D166A23CB009FF28D /* CreateGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020EDA9B16560F73007F2E80 /* CreateGroupTableViewController.m */; };
 		B929FE4D166C03AD009FF28D /* ActiveProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B929FE4C166C03AC009FF28D /* ActiveProfile.m */; };
 		B9A427CA1660D8420020EE93 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A427C81660D8410020EE93 /* MainTableViewController.m */; };
-		B9A427CB1660D8420020EE93 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A427C91660D8420020EE93 /* MainTableViewController.xib */; };
 		B9A427CE16624E700020EE93 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A427CD16624E700020EE93 /* Profile.m */; };
+		B9FF999F167A9F700060967D /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FF999E167A9F700060967D /* Member.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,9 +103,10 @@
 		B929FE4C166C03AC009FF28D /* ActiveProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveProfile.m; sourceTree = "<group>"; };
 		B9A427C71660D8410020EE93 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		B9A427C81660D8410020EE93 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		B9A427C91660D8420020EE93 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
 		B9A427CC16624E6F0020EE93 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		B9A427CD16624E700020EE93 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		B9FF999D167A9F700060967D /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		B9FF999E167A9F700060967D /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				226517CC1653F5BE008183CE /* MainStoryboard_iPhone.storyboard */,
-				B9A427C91660D8420020EE93 /* MainTableViewController.xib */,
 				2288C5BB1655DE9F00F961E6 /* LoginViewController.xib */,
 				2288C5B81655DE9800F961E6 /* MainWindow.xib */,
 				2288C5CC1655F5A000F961E6 /* SignUpViewController.xib */,
@@ -225,6 +225,8 @@
 				B929FE15166544E8009FF28D /* FeedTableViewCell.m */,
 				B929FE4B166C03AC009FF28D /* ActiveProfile.h */,
 				B929FE4C166C03AC009FF28D /* ActiveProfile.m */,
+				B9FF999D167A9F700060967D /* Member.h */,
+				B9FF999E167A9F700060967D /* Member.m */,
 			);
 			name = MainPage;
 			sourceTree = "<group>";
@@ -286,7 +288,6 @@
 				2288C5BC1655DE9F00F961E6 /* LoginViewController.xib in Resources */,
 				2288C5C71655ED3900F961E6 /* temp.jpg in Resources */,
 				2288C5CD1655F5A100F961E6 /* SignUpViewController.xib in Resources */,
-				B9A427CB1660D8420020EE93 /* MainTableViewController.xib in Resources */,
 				B929FE071664989D009FF28D /* osx.jpg in Resources */,
 				B929FE321668316C009FF28D /* Default-568h@2x.png in Resources */,
 			);
@@ -321,6 +322,7 @@
 				2288C5C41655DEAD00F961E6 /* LoginViewController.m in Sources */,
 				B929FE3A1669FD07009FF28D /* DataAccess.m in Sources */,
 				B929FE4D166C03AD009FF28D /* ActiveProfile.m in Sources */,
+				B9FF999F167A9F700060967D /* Member.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

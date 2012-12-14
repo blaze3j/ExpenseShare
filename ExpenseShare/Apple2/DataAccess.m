@@ -8,6 +8,7 @@
 
 #import "DataAccess.h"
 #import "Event.h"
+#import "Member.h"
 
 @implementation DataAccess
 
@@ -126,6 +127,12 @@
         err = 1;
     }
     
+    // Add first group member self.
+    Member* me = [[Member alloc] initWithName:[profile getName] WithEmail:[profile getEmail]];
+    [me setAccepted:true];
+    [profile setMembers:[NSMutableArray arrayWithObject:me]];
+    [self setMembersForProfile:profile];
+    
     return err;
 }
 
@@ -185,6 +192,8 @@ STATEMENT_FAILURE:
 OPEN_FAILURE:
     return profile;
 }
+
+#pragma mark - Events
 
 - (NSString*) getEventsTableNameForProfile:(Profile*) profile
 {
@@ -331,6 +340,152 @@ INSERT_FAILURE:
 DELETE_FAILURE:
     sqlite3_close(mDb);
 
+OPEN_FAILURE:
+    return err;
+}
+
+#pragma mark - Members
+
+- (NSString*) getMembersTableNameForProfile:(Profile*) profile
+{
+    return [[[profile getEmail] stringByReplacingOccurrencesOfString:@"@" withString:@"_"] stringByReplacingOccurrencesOfString:@"." withString:@"_"];
+}
+
+- (int) createMembersTableForProfile:(Profile*) profile
+{
+    int err = 0;
+    const char *dbpath = [mDatabasePath UTF8String];
+    
+    if (sqlite3_open(dbpath, &mDb) == SQLITE_OK)
+    {
+        char *errMsg;
+        NSString *querySQL = [NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS MEMBER_%@ ("
+                              "NAME TEXT, "
+                              "EMAIL REAL, "
+                              "ACCEPTED BOOLEAN)",
+                              [self getMembersTableNameForProfile:profile]];
+        const char *sql_stmt = [querySQL UTF8String];
+        
+        if (sqlite3_exec(mDb, sql_stmt, NULL, NULL, &errMsg) != SQLITE_OK)
+        {
+            NSLog(@"Failed to create table, %s", errMsg);
+            err = 1;
+        }
+        
+        sqlite3_close(mDb);
+        
+    } else {
+        NSLog(@"Failed to open/create database");
+        err = 1;
+    }
+    return err;
+}
+
+- (NSMutableArray*) getMembersForProfile:(Profile*) profile
+{
+    const char *dbpath = [mDatabasePath UTF8String];
+    sqlite3_stmt *statement = NULL;
+    NSString *querySQL = nil;
+    const char* query_stmt = NULL;
+    int err = 0;
+    NSString* nameField = nil;
+    NSString* emailField = nil;
+    BOOL acceptedField = false;
+    Member* member = nil;
+    NSMutableArray* members = [NSMutableArray array];
+    
+    if (sqlite3_open(dbpath, &mDb) != SQLITE_OK)
+    {
+        goto OPEN_FAILURE;
+    }
+    
+    querySQL = [NSString stringWithFormat: @"SELECT name, email, accepted FROM member_%@",
+                [self getMembersTableNameForProfile:profile]];
+    query_stmt = [querySQL UTF8String];
+    err = sqlite3_prepare_v2(mDb, query_stmt, -1, &statement, NULL);
+    
+    if (err != SQLITE_OK)
+    {
+        goto STATEMENT_FAILURE;
+    }
+    
+    while (sqlite3_step(statement) == SQLITE_ROW)
+    {
+        nameField = [[NSString alloc] initWithUTF8String:(const char *) sqlite3_column_text(statement, 0)];
+        emailField = [[NSString alloc] initWithUTF8String:(const char *) sqlite3_column_text(statement, 1)];
+        acceptedField = (BOOL) sqlite3_column_int(statement, 2);
+        
+        member = [[Member alloc] initWithName:nameField WithEmail:emailField];
+        [member setAccepted:acceptedField];
+        [members addObject:member];
+    }
+    
+PASSWORD_FAILURE:
+DATABASE_FAILURE:
+    sqlite3_finalize(statement);
+    
+STATEMENT_FAILURE:
+    sqlite3_close(mDb);
+    
+OPEN_FAILURE:
+    return members;
+}
+
+- (int) setMembersForProfile:(Profile*) profile
+{
+    sqlite3_stmt *statement;
+    int err = 0;
+    const char *dbpath = [mDatabasePath UTF8String];
+    char *errMsg = "";
+    NSString *querySQL = nil;
+    const char *sqlStmt = NULL;
+    NSArray* members = [profile getMembers];
+    
+    if (nil == [profile getMembers] || 0 == [profile getMembers]) {
+        return 0;
+    }
+    
+    [self createMembersTableForProfile:profile];
+    
+    if (sqlite3_open(dbpath, &mDb) != SQLITE_OK)
+    {
+        NSLog(@"%s: Failed to open database", __FUNCTION__);
+        goto OPEN_FAILURE;
+    }
+    
+    querySQL = [NSString stringWithFormat:@"DELETE FROM member_%@",
+                [self getMembersTableNameForProfile:profile]];
+    sqlStmt = [querySQL UTF8String];
+    
+    if (sqlite3_exec(mDb, sqlStmt, NULL, NULL, &errMsg) != SQLITE_OK)
+    {
+        NSLog(@"Failed to delete all rows in table, %s", errMsg);
+        err = 1;
+        goto DELETE_FAILURE;
+    }
+    
+    for (Member* m in members)
+    {
+        querySQL = [NSString stringWithFormat: @"INSERT INTO member_%@ (name, email, accepted) VALUES (\"%@\", \"%@\", \"%d\")",
+                    [self getMembersTableNameForProfile:profile], [m getName], [m getEmail], [m getAccepted]];
+        sqlStmt = [querySQL UTF8String];
+        
+        sqlite3_prepare_v2(mDb, sqlStmt, -1, &statement, NULL);
+        if (sqlite3_step(statement) == SQLITE_DONE)
+        {
+            NSLog(@"Success to add member to database");
+        } else {
+            NSLog(@"Failed to add member to database");
+            goto INSERT_FAILURE;
+        }
+        
+        sqlite3_finalize(statement);
+    }
+    
+INSERT_FAILURE:
+DELETE_FAILURE:
+    sqlite3_close(mDb);
+    
 OPEN_FAILURE:
     return err;
 }

@@ -18,6 +18,7 @@
     NSNumber* mOwe;
     NSNumber* mOwed;
     NSMutableArray* mEvents;
+    NSMutableArray* mMembers;
 }
 
 - (id)initWithName:(NSString*) name WithEmail:(NSString*) email WithPassword:(NSString*) password;
@@ -32,12 +33,15 @@
 - (NSString*)getOweAsString;
 - (NSNumber*)getOwed;
 - (NSString*)getOwedAsString;
+- (NSString*)getIndividualOweAsString;
 - (NSMutableArray*)getEvents;
+- (NSMutableArray*)getMembers;
 
 - (void)setProfileWithProfile:(Profile*) profile;
 - (void)setGroup:(NSString*) group;
 - (void)setOwed:(NSNumber*) owed;
 - (void)setOwe:(NSNumber*) owe;
 - (void)setEvents:(NSMutableArray*) events;
+- (void)setMembers:(NSMutableArray*) members;
 
 @end

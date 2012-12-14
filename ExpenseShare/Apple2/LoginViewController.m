@@ -71,6 +71,7 @@
         return NO;
 
     [profile setEvents:[db getEventsForProfile:profile]];
+    [profile setMembers:[db getMembersForProfile:profile]];
     Profile* activeProfile = [ActiveProfile sharedInstance];
     [activeProfile setProfileWithProfile:profile];
     

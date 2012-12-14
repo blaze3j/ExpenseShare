@@ -19,9 +19,7 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *tblcelCreateGroupJerry;
 @property (strong, nonatomic) IBOutlet UITextField *groupNameField;
 
-@property (nonatomic, strong) NSMutableArray* memberList;
-@property (nonatomic, strong) NSMutableArray* emailList;
-@property (nonatomic, strong) NSMutableArray* statusList;
+@property (nonatomic, strong) NSMutableArray* members;
 
 - (IBAction)btnCreateGroupDone:(id)sender;
 - (IBAction)setGroup:(id)sender;

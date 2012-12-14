@@ -57,7 +57,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 3;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -99,14 +99,7 @@
                 cell = profileCell;
                 break;
             case 1:
-                if (0 != [events count])
-                    [upcomingEventCell setEvent:[events objectAtIndex:0]];
-                else
-                {
-                    Event* event = [[Event alloc] initWithType:@"" WithFrequency:@"" WithTerm:@"" WithCost:[NSNumber numberWithInt:0] WithDateInterval:0.0];
-                    [upcomingEventCell setEvent:event];                    
-                }
-                    
+                [upcomingEventCell setEvents:events];
                 cell = upcomingEventCell;
                 break;
             case 2:

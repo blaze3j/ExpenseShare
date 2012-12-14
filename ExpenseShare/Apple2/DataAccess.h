@@ -23,4 +23,7 @@
 - (NSMutableArray*) getEventsForProfile:(Profile*) profile;
 - (int) setEventsForProfile:(Profile*) profile;
 
+- (NSMutableArray*) getMembersForProfile:(Profile*) profile;
+- (int) setMembersForProfile:(Profile*) profile;
+
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "Profile.h"
+#import "Event.h"
 
 @implementation Profile
 
@@ -39,6 +40,7 @@
         mOwe = [NSNumber numberWithFloat:0.0];
         mOwed = [NSNumber numberWithFloat:0.0];
         mEvents = [NSMutableArray array];
+        mMembers = [NSMutableArray array];
     }
     return self;
 }
@@ -98,6 +100,38 @@
     return mEvents;
 }
 
+- (NSMutableArray*) getMembers
+{
+    return mMembers;
+}
+
+- (NSNumber*)getIndividualCost
+{
+    float total = 0.0;
+    for (Event* e in mEvents)
+    {
+        NSString* term = [e getTerm];
+        if ([term isEqualToString:@"Divide evenly"])
+        {
+            total += [[e getCost] floatValue] / (float) [mMembers count];
+        }
+        else if ([term isEqualToString:@"Take turns"])
+        {
+            total += [[e getCost] floatValue];
+        }
+        else
+        {
+            total += [[e getCost] floatValue];
+        }
+    }
+    return [NSNumber numberWithFloat:total];
+}
+
+- (NSString*)getIndividualOweAsString
+{
+    return [NSString stringWithFormat:@"$%.02f", [[self getIndividualCost] floatValue]];
+}
+
 - (void)setProfileWithProfile:(Profile*) profile
 {
     mName = [profile getName];
@@ -108,6 +142,7 @@
     mOwe = [profile getOwe];
     mOwed = [profile getOwed];
     mEvents = [NSMutableArray arrayWithArray:[profile getEvents]];
+    mMembers = [NSMutableArray arrayWithArray:[profile getMembers]];
 }
 
 - (void)setGroup:(NSString*)group
@@ -128,6 +163,11 @@
 - (void)setEvents:(NSMutableArray*) events
 {
     mEvents = events;
+}
+
+- (void)setMembers:(NSMutableArray*) members
+{
+    mMembers = members;
 }
 
 @end

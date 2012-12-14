@@ -75,11 +75,6 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
-    
-    Profile* profile = [ActiveProfile sharedInstance];
-    DataAccess* db = [[DataAccess alloc] init];
-    
-    [db setEventsForProfile:profile];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -135,6 +130,10 @@
         Profile* profile = [ActiveProfile sharedInstance];
         NSMutableArray* events = [profile getEvents];
         [events removeObjectAtIndex:indexPath.row];
+
+        DataAccess* db = [[DataAccess alloc] init];
+        [db setEventsForProfile:profile];
+
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
         
     }   /*
@@ -193,6 +192,9 @@
     
     NSLog(@"%@ count: %d", events, [events count]);
     
+    DataAccess* db = [[DataAccess alloc] init];
+    [db setEventsForProfile:profile];
+
     [self.dataArray insertObject:data atIndex:[self.dataArray count]];
     [self.tableView reloadData];
 }

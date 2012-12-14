@@ -37,7 +37,7 @@
             self.choicesList = [[NSMutableArray alloc] initWithObjects:@"Week", @"Month", @"Quarter", @"Year", nil];
             break;
         case 2:
-              self.choicesList = [[NSMutableArray alloc] initWithObjects:@"Divide Evenly", @"Take turn", @"Pay by..", nil];
+              self.choicesList = [[NSMutableArray alloc] initWithObjects:@"Divide evenly", @"Take turns", @"Pay by..", nil];
             self.originalText = @"Pay by..";
             break;
 /*        case 3:

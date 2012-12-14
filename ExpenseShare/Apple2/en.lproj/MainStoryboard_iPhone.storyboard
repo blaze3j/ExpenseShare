@@ -450,8 +450,8 @@ Jenny.
                                     <action selector="login_OnClick:" destination="Wjf-Xg-iPA" eventType="touchUpInside" id="CX9-8P-4q4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Expense Share" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="BnH-7x-zV2">
-                                <rect key="frame" x="102" y="71" width="117" height="46"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ExpenseMate" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="BnH-7x-zV2">
+                                <rect key="frame" x="87" y="71" width="147" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
@@ -670,28 +670,28 @@ Jenny.
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="owe" lineBreakMode="tailTruncation" minimumFontSize="10" id="srb-9c-f5g">
                                                     <rect key="frame" x="98" y="16" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="0.27765708556149737" green="0.27765708556149737" blue="0.27765708556149737" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="owed" lineBreakMode="tailTruncation" minimumFontSize="10" id="mIt-zX-yD6">
                                                     <rect key="frame" x="98" y="38" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="0.27765708556149737" green="0.27765708556149737" blue="0.27765708556149737" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="SOw-je-Mim">
-                                                    <rect key="frame" x="133" y="16" width="42" height="21"/>
+                                                    <rect key="frame" x="133" y="16" width="90" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.27765708556149737" green="0.27765708556149737" blue="0.27765708556149737" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="Rkf-JL-7xK">
-                                                    <rect key="frame" x="133" y="38" width="42" height="21"/>
+                                                    <rect key="frame" x="133" y="38" width="90" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.27765708556149737" green="0.27765708556149737" blue="0.27765708556149737" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -709,61 +709,26 @@ Jenny.
                             </tableViewSection>
                             <tableViewSection headerTitle="Upcoming Event" id="XzW-ok-ry4">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UpcomingEventIdentifier" textLabel="iKJ-7N-VBC" detailTextLabel="Mg9-Vf-nqw" rowHeight="34" style="IBUITableViewCellStyleValue1" id="U7H-No-QeP" customClass="EventTableViewCell">
-                                        <rect key="frame" x="0.0" y="174" width="320" height="36"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="228" id="FmT-AJ-N2R" customClass="EventTableViewCell">
+                                        <rect key="frame" x="0.0" y="174" width="320" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="300" height="33"/>
+                                            <rect key="frame" x="10" y="1" width="300" height="227"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iKJ-7N-VBC">
-                                                    <rect key="frame" x="10" y="6" width="35" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" red="0.31429645721925137" green="0.31429645721925137" blue="0.31429645721925137" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mg9-Vf-nqw">
-                                                    <rect key="frame" x="246" y="6" width="44" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <connections>
-                                            <outlet property="dateLabel" destination="Mg9-Vf-nqw" id="vNh-eb-JuU"/>
-                                            <outlet property="eventLabel" destination="iKJ-7N-VBC" id="DOG-VT-etB"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                            <tableViewSection headerTitle="LoveLoveHouse" id="nqu-ur-yz3">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedIdentifier" rowHeight="133" id="VNm-PB-9Zn" customClass="FeedTableViewCell">
-                                        <rect key="frame" x="0.0" y="256" width="320" height="135"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="300" height="132"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="hJm-6Q-Ara">
-                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="132"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="aek-3Z-z2t">
+                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="227"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <outlet property="feedTextView" destination="hJm-6Q-Ara" id="fKm-gs-s9I"/>
+                                            <outlet property="eventTextView" destination="aek-3Z-z2t" id="p2p-gZ-GlD"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -787,9 +752,8 @@ Jenny.
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="feedCell" destination="VNm-PB-9Zn" id="STA-hu-Odb"/>
                         <outlet property="profileCell" destination="o9g-1A-tkH" id="uT1-xw-Hgz"/>
-                        <outlet property="upcomingEventCell" destination="U7H-No-QeP" id="0KA-Q7-fV5"/>
+                        <outlet property="upcomingEventCell" destination="FmT-AJ-N2R" id="hMG-UA-qOH"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dW-jl-Mys" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1148,15 +1112,140 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     <resources>
         <image name="temp.jpg" width="720" height="960"/>
     </resources>
+    <classes>
+        <class className="AddSchedule" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddSchedule.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="action" name="done:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="datePicker" candidateClass="UIDatePicker"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="CostDetailController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CostDetailController.h"/>
+            <relationships>
+                <relationship kind="action" name="reset:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="CreateGroupTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CreateGroupTableViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="btnCreateGroupDone:"/>
+                <relationship kind="action" name="setGroup:"/>
+                <relationship kind="outlet" name="btnCreateGroup" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="groupNameField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="tblcelCreateGroupIan" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="tblcelCreateGroupJerry" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="tblcelCreateGroupJoanne" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="tblcelCreateGroupPeifen" candidateClass="UITableViewCell"/>
+            </relationships>
+        </class>
+        <class className="DetailView" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailView.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="EditViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EditViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="action" name="edit:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="datePicker" candidateClass="UIDatePicker"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="EventTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EventTableViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="eventTextView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="FeedTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FeedTableViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="feedTextView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="InviteViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/InviteViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="btnInviteSubmit:"/>
+                <relationship kind="action" name="cancel:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="txtInviteContent" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="txtInviteEmail" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="LoginViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="login_OnClick:"/>
+                <relationship kind="outlet" name="Button" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="Email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="Password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="SignUp_Button" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="MainTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="feedCell" candidateClass="FeedTableViewCell"/>
+                <relationship kind="outlet" name="profileCell" candidateClass="ProfileTableViewCell"/>
+                <relationship kind="outlet" name="upcomingEventCell" candidateClass="EventTableViewCell"/>
+            </relationships>
+        </class>
+        <class className="OtherDetailView" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OtherDetailView.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="action" name="done:"/>
+                <relationship kind="action" name="textFieldFinished:"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="ProfileTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfileTableViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="oweLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="owedLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="profileImage" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="ScheduleTableViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScheduleTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="SignUpViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SignUpViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel_OnClick:"/>
+                <relationship kind="action" name="signUp_OnClick:"/>
+                <relationship kind="outlet" name="Cancel" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="Email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="Name" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="Password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="Re_Email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="Re_Password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="SignUpButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="sVT-1Y-wEc"/>
-        <segue reference="10k-y9-l1I"/>
-        <segue reference="sNo-11-3oe"/>
         <segue reference="hux-fE-Tcs"/>
+        <segue reference="10k-y9-l1I"/>
+        <segue reference="sVT-1Y-wEc"/>
+        <segue reference="sNo-11-3oe"/>
     </inferredMetricsTieBreakers>
 </document>

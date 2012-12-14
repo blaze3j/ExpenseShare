@@ -7,11 +7,11 @@
 //
 
 #import "EventTableViewCell.h"
+#import "Event.h"
 
 @implementation EventTableViewCell
-@synthesize eventLabel;
-@synthesize dateLabel;
-@synthesize event;
+@synthesize eventTextView;
+@synthesize events;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -29,22 +29,27 @@
     // Configure the view for the selected state
 }
 
-- (void)setEvent:(Event*)newEvent {
+- (void)setEvents:(NSArray*)newEvents {
     
-    if (event != newEvent) {
-        event = newEvent;
+    events = newEvents;
+
+    if (0 == [events count])
+    {
+        eventTextView.text = @"";
+        return;
         
-        eventLabel.text = [event getType];
-        
-        if (0.0 == [event getDateAsTimeInterval])
-        {
-            dateLabel.text = @"";
-        }
-        else
-        {
-            dateLabel.text = [event getDateAsString];
-        }
     }
+    events = newEvents;
+    
+    NSMutableArray* eventStringArray = [NSMutableArray array];
+    for (Event* e in events)
+    {
+        NSString* eventLine = [NSString stringWithFormat:@"%@ owe %.02f for %@", [e getDateAsString], [[e getCost] floatValue], [e getType]];
+        
+        [eventStringArray addObject:eventLine];
+    }
+
+    eventTextView.text = [eventStringArray componentsJoinedByString:@"\n"];
 }
 
 @end

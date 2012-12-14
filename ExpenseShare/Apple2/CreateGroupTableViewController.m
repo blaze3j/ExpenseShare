@@ -10,6 +10,7 @@
 #import "MainTableViewController.h"
 #import "DataAccess.h"
 #import "ActiveProfile.h"
+#import "Member.h"
 
 @interface CreateGroupTableViewController ()
 
@@ -17,7 +18,7 @@
 
 @implementation CreateGroupTableViewController
 @synthesize groupNameField;
-@synthesize memberList = _memberList, emailList = _emailList, statusList = _statusList;
+@synthesize members;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -66,12 +67,11 @@
         groupNameField.text = group;
     }
     
-    self.memberList = [[NSMutableArray alloc] init];
-    [[self memberList] insertObject:(profile.getName) atIndex:(0)];
-    self.emailList = [[NSMutableArray alloc] init];
-    [[self emailList] insertObject:(profile.getEmail) atIndex:(0)];
-    self.statusList = [[NSMutableArray alloc] init];
-    [[self statusList] insertObject:(@"Accept") atIndex:(0)];
+    members = [profile getMembers];
+}
+
+-(void) viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
 }
 
 - (void)didReceiveMemoryWarning
@@ -97,7 +97,7 @@
     // Return the number of rows in the section.
     // Initial number of rows should be got from the database.
     // Here 2 means 1 row for the user him/herself + 1 row for adding new member
-    return [self.memberList count] + 1;
+    return [members count] + 1;
 }
 
 
@@ -106,17 +106,17 @@
 {
     UITableViewCell *cell;
 
-    if ([indexPath row] >= [[self memberList] count] ) {
+    if ([indexPath row] >= [members count] ) {
         cell = [tableView dequeueReusableCellWithIdentifier:@"addCell"];
     } else {
         NSLog(@"in else, cellForRowAtIndexPath");
-        if ([[self statusList] objectAtIndex:[indexPath row]] == @"Accept") {
+        if ([[members objectAtIndex:[indexPath row]] getAccepted] == true) {
             cell = [tableView dequeueReusableCellWithIdentifier:@"acceptCell"];
         } else {
             cell = [tableView dequeueReusableCellWithIdentifier:@"pendingCell"];
         }
-        cell.textLabel.text = [[self memberList] objectAtIndex:[indexPath row]];
-        cell.detailTextLabel.text = [[self emailList] objectAtIndex: [indexPath row]];
+        cell.textLabel.text = [[members objectAtIndex:[indexPath row]] getName];
+        cell.detailTextLabel.text = [[members objectAtIndex: [indexPath row]] getEmail];
     }
     
     if (cell == nil) {
@@ -135,7 +135,7 @@
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
-    if (indexPath.row == 0 || indexPath.row == self.memberList.count)
+    if (indexPath.row == 0 || indexPath.row == [members count])
         return NO;
     return YES;
 }
@@ -146,9 +146,12 @@
 {
     if (editingStyle == UITableViewCellEditingStyleDelete && indexPath.row != 0) {
         // Delete the row from the data source
-        [self.emailList removeObjectAtIndex:indexPath.row];
-        [self.memberList removeObjectAtIndex:indexPath.row];
-        [self.statusList removeObjectAtIndex:indexPath.row];
+        [members removeObjectAtIndex:indexPath.row];
+
+        Profile* profile = [ActiveProfile sharedInstance];
+        DataAccess* db = [[DataAccess alloc] init];
+        [db setMembersForProfile:profile];
+
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }
     /*
@@ -223,10 +226,13 @@
 
 -(void) updateMembers:(NSString*) data {
     NSLog(@"hi...?");
-    [self.memberList insertObject:data atIndex:[self.memberList count]];
-    [self.emailList insertObject:data atIndex:[self.emailList count]];
-    [self.statusList insertObject:@"Pending" atIndex:[self.statusList count]];
-
+    NSLog(@"%d %d", [data rangeOfString:@"@"].length, [data rangeOfString:@"@"].location);
+    Member* member = [[Member alloc] initWithName:[data substringToIndex:[data rangeOfString:@"@"].location] WithEmail:data];
+    [members insertObject:member atIndex:[members count]];
+    Profile* profile = [ActiveProfile sharedInstance];
+    DataAccess* db = [[DataAccess alloc] init];
+    [db setMembersForProfile:profile];
+    
     [self.tableView reloadData];
     NSLog(@"hi...? over");
 }
