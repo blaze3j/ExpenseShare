@@ -70,6 +70,7 @@
     if (![self.Password.text isEqualToString:[profile getPassword]])
         return NO;
 
+    [profile setEvents:[db getEventsForProfile:profile]];
     Profile* activeProfile = [ActiveProfile sharedInstance];
     [activeProfile setProfileWithProfile:profile];
     

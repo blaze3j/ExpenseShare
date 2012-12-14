@@ -21,8 +21,6 @@
 
 #pragma mark - View lifecycle
 
-
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
@@ -66,7 +64,6 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-
 
 #pragma mark - Table view data source
 
@@ -141,8 +138,6 @@
 
 }
 
-
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
@@ -171,15 +166,21 @@
 #pragma mark button action
 #define ATTR_COUNT 4
 - (IBAction)done:(UIBarButtonItem*)sender {
-    NSMutableArray* result = [[NSMutableArray alloc] initWithCapacity:ATTR_COUNT];
+    NSMutableArray* result = [NSMutableArray array];
     NSIndexPath* tempPath;
     for (int i = 0; i < ATTR_COUNT; i++) {
         tempPath = [NSIndexPath indexPathForRow:i inSection:0];
         UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:tempPath];
         [result insertObject:cell.detailTextLabel.text atIndex:i];
     }
+    [result insertObject:[self.datePicker date] atIndex:ATTR_COUNT];
+    
     if(self.delegate)
-        NSLog(@"hahaha"); 
+    {
+        NSLog(@"hahaha");
+        NSLog(@"%@", self.propList);
+        NSLog(@"%@", result);
+    }
     else
         NSLog(@"why");
     [self.delegate updateItems:result];

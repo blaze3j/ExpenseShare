@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "AddSchedule.h"
 @interface ScheduleTableViewController : UIViewController<UITableViewDelegate,UITableViewDataSource, AddScheduleProtocol>
-@property(nonatomic, strong) NSMutableArray* scheduleList;
+//@property(nonatomic, strong) NSMutableArray* scheduleList;
 @property (nonatomic, strong) NSMutableArray* dataArray;
 @end

@@ -10,21 +10,21 @@
 
 @implementation Profile
 
-- (id)init
-{
-    self = [super init];
-    if (self)
-    {
-        mName = @"Jenny";
-        mEmail = @"Jenny@gmail.com";
-        mPassword = @"jennypass";
-        mGroup = @"LoveLoveHouse";
-        mImagePath = @"osx.jpg";
-        mOwe = [NSNumber numberWithFloat:10.0];
-        mOwed = [NSNumber numberWithFloat:2.5];
-    }
-    return self;
-}
+//- (id)init
+//{
+//    self = [super init];
+//    if (self)
+//    {
+//        mName = @"Jenny";
+//        mEmail = @"Jenny@gmail.com";
+//        mPassword = @"jennypass";
+//        mGroup = @"LoveLoveHouse";
+//        mImagePath = @"osx.jpg";
+//        mOwe = [NSNumber numberWithFloat:10.0];
+//        mOwed = [NSNumber numberWithFloat:2.5];
+//    }
+//    return self;
+//}
 
 - (id)initWithName:(NSString*) name WithEmail:(NSString*) email WithPassword:(NSString*) password
 {
@@ -38,6 +38,7 @@
         mImagePath = @"osx.jpg";
         mOwe = [NSNumber numberWithFloat:0.0];
         mOwed = [NSNumber numberWithFloat:0.0];
+        mEvents = [NSMutableArray array];
     }
     return self;
 }
@@ -92,6 +93,11 @@
     return [NSString stringWithFormat:@"$%.2f", [mOwed floatValue]];
 }
 
+- (NSMutableArray*) getEvents
+{
+    return mEvents;
+}
+
 - (void)setProfileWithProfile:(Profile*) profile
 {
     mName = [profile getName];
@@ -101,6 +107,7 @@
     mImagePath = [profile getImagePath];
     mOwe = [profile getOwe];
     mOwed = [profile getOwed];
+    mEvents = [NSMutableArray arrayWithArray:[profile getEvents]];
 }
 
 - (void)setGroup:(NSString*)group
@@ -116,6 +123,11 @@
 - (void)setOwe:(NSNumber*) owe
 {
     mOwe = owe;
+}
+
+- (void)setEvents:(NSMutableArray*) events
+{
+    mEvents = events;
 }
 
 @end

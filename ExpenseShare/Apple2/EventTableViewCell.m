@@ -34,8 +34,16 @@
     if (event != newEvent) {
         event = newEvent;
         
-        eventLabel.text = [event getSubject];
-        dateLabel.text = [event getDateAsString];
+        eventLabel.text = [event getType];
+        
+        if (0.0 == [event getDateAsTimeInterval])
+        {
+            dateLabel.text = @"";
+        }
+        else
+        {
+            dateLabel.text = [event getDateAsString];
+        }
     }
 }
 

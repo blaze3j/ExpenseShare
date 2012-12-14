@@ -7,10 +7,11 @@
 //
 
 #import "DataAccess.h"
+#import "Event.h"
 
 @implementation DataAccess
 
-- (id)init
+- (id) init
 {
     NSString *docsDir = nil;
     NSArray *dirPaths = nil;
@@ -184,4 +185,154 @@ STATEMENT_FAILURE:
 OPEN_FAILURE:
     return profile;
 }
+
+- (NSString*) getEventsTableNameForProfile:(Profile*) profile
+{
+    return [[[profile getEmail] stringByReplacingOccurrencesOfString:@"@" withString:@"_"] stringByReplacingOccurrencesOfString:@"." withString:@"_"];
+}
+
+- (int) createEventsTableForProfile:(Profile*) profile
+{
+    int err = 0;
+    const char *dbpath = [mDatabasePath UTF8String];
+    
+    if (sqlite3_open(dbpath, &mDb) == SQLITE_OK)
+    {
+        char *errMsg;
+        NSString *querySQL = [NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS EVENT_%@ ("
+                              "TYPE TEXT, "
+                              "FREQUENCY TEXT, "
+                              "TERM TEXT, "
+                              "COST REAL, "
+                              "DATE REAL)",
+                              [self getEventsTableNameForProfile:profile]];
+        const char *sql_stmt = [querySQL UTF8String];
+        
+        if (sqlite3_exec(mDb, sql_stmt, NULL, NULL, &errMsg) != SQLITE_OK)
+        {
+            NSLog(@"Failed to create table, %s", errMsg);
+            err = 1;
+        }
+        
+        sqlite3_close(mDb);
+        
+    } else {
+        NSLog(@"Failed to open/create database");
+        err = 1;
+    }
+    return err;
+}
+
+- (NSMutableArray*) getEventsForProfile:(Profile*) profile
+{
+    const char *dbpath = [mDatabasePath UTF8String];
+    sqlite3_stmt *statement = NULL;
+    NSString *querySQL = nil;
+    const char* query_stmt = NULL;
+    int err = 0;
+    NSString* typeField = nil;
+    NSString* frequencyField = nil;
+    NSString* termField = nil;
+    NSNumber* costField = nil;
+    NSNumber* dateField = nil;
+    Event* event = nil;
+    NSMutableArray* events = [NSMutableArray array];
+    
+    if (sqlite3_open(dbpath, &mDb) != SQLITE_OK)
+    {
+        goto OPEN_FAILURE;
+    }
+    
+    querySQL = [NSString stringWithFormat: @"SELECT type, frequency, term, cost, date FROM event_%@",
+                [self getEventsTableNameForProfile:profile]];
+    query_stmt = [querySQL UTF8String];
+    err = sqlite3_prepare_v2(mDb, query_stmt, -1, &statement, NULL);
+    
+    if (err != SQLITE_OK)
+    {
+        goto STATEMENT_FAILURE;
+    }
+    
+    while (sqlite3_step(statement) == SQLITE_ROW)
+    {
+        typeField = [[NSString alloc] initWithUTF8String:(const char *) sqlite3_column_text(statement, 0)];
+        frequencyField = [[NSString alloc] initWithUTF8String:(const char *) sqlite3_column_text(statement, 1)];
+        termField = [[NSString alloc] initWithUTF8String:(const char *) sqlite3_column_text(statement, 2)];
+        costField = [NSNumber numberWithFloat:sqlite3_column_double(statement, 3)];
+        dateField = [NSNumber numberWithFloat:sqlite3_column_double(statement, 4)];
+        
+        event = [[Event alloc] initWithType:typeField WithFrequency:frequencyField WithTerm:termField WithCost:costField WithDateInterval:[dateField floatValue]];
+        [events addObject:event];
+    }
+    
+PASSWORD_FAILURE:
+DATABASE_FAILURE:
+    sqlite3_finalize(statement);
+    
+STATEMENT_FAILURE:
+    sqlite3_close(mDb);
+    
+OPEN_FAILURE:
+    return events;
+}
+
+- (int) setEventsForProfile:(Profile*) profile
+{
+    sqlite3_stmt *statement;
+    int err = 0;
+    const char *dbpath = [mDatabasePath UTF8String];
+    char *errMsg = "";
+    NSString *querySQL = nil;
+    const char *sqlStmt = NULL;
+    NSArray* events = [profile getEvents];
+    
+    if (nil == [profile getEvents] || 0 == [profile getEvents]) {
+        return 0;
+    }
+    
+    [self createEventsTableForProfile:profile];
+    
+    if (sqlite3_open(dbpath, &mDb) != SQLITE_OK)
+    {
+        NSLog(@"%s: Failed to open database", __FUNCTION__);
+        goto OPEN_FAILURE;
+    }
+        
+    querySQL = [NSString stringWithFormat:@"DELETE FROM event_%@",
+                              [self getEventsTableNameForProfile:profile]];
+    sqlStmt = [querySQL UTF8String];
+        
+    if (sqlite3_exec(mDb, sqlStmt, NULL, NULL, &errMsg) != SQLITE_OK)
+    {
+        NSLog(@"Failed to delete all rows in table, %s", errMsg);
+        err = 1;
+        goto DELETE_FAILURE;
+    }
+    
+    for (Event* e in events)
+    {
+        querySQL = [NSString stringWithFormat: @"INSERT INTO event_%@  (type, frequency, term, cost, date) VALUES (\"%@\", \"%@\", \"%@\", \"%@\", \"%f\")",
+                    [self getEventsTableNameForProfile:profile], [e getType], [e getFrequency], [e getTerm], [e getCost], [e getDateAsTimeInterval]];
+        sqlStmt = [querySQL UTF8String];
+        
+        sqlite3_prepare_v2(mDb, sqlStmt, -1, &statement, NULL);
+        if (sqlite3_step(statement) == SQLITE_DONE)
+        {
+            NSLog(@"Success to add event to database");
+        } else {
+            NSLog(@"Failed to add event to database");
+            goto INSERT_FAILURE;
+        }
+        
+        sqlite3_finalize(statement);
+    }
+    
+INSERT_FAILURE:
+DELETE_FAILURE:
+    sqlite3_close(mDb);
+
+OPEN_FAILURE:
+    return err;
+}
+
 @end

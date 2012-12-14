@@ -20,4 +20,7 @@
 - (int) setProfileByGroupWithProfile:(Profile *)profile;
 - (Profile*) getProfileWithEmail:(NSString*) email;
 
+- (NSMutableArray*) getEventsForProfile:(Profile*) profile;
+- (int) setEventsForProfile:(Profile*) profile;
+
 @end

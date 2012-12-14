@@ -34,13 +34,16 @@
 {
     [super viewDidLoad];
 
-    mEventList = [NSArray arrayWithObjects:[[Event alloc] initWithSubject:@"Electrical" WithDateInterval:1334041160.459764],[[Event alloc] initWithSubject:@"Water" WithDateInterval:1354041160.459764], nil];
-    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -84,7 +87,8 @@
 {
     static NSString *CellIdentifier = @"Cell";
     Profile* profile = [ActiveProfile sharedInstance];
-;
+    NSArray* events = [profile getEvents];
+
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         // Configure the cell...
@@ -95,7 +99,14 @@
                 cell = profileCell;
                 break;
             case 1:
-                [upcomingEventCell setEvent:[mEventList objectAtIndex:0]];
+                if (0 != [events count])
+                    [upcomingEventCell setEvent:[events objectAtIndex:0]];
+                else
+                {
+                    Event* event = [[Event alloc] initWithType:@"" WithFrequency:@"" WithTerm:@"" WithCost:[NSNumber numberWithInt:0] WithDateInterval:0.0];
+                    [upcomingEventCell setEvent:event];                    
+                }
+                    
                 cell = upcomingEventCell;
                 break;
             case 2:

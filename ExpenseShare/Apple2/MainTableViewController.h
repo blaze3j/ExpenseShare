@@ -13,7 +13,6 @@
 
 @interface MainTableViewController : UITableViewController
 {
-    NSArray* mEventList;
     NSArray* mFeedList;
 }
 

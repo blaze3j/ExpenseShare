@@ -10,12 +10,26 @@
 
 @interface Event : NSObject
 {
-    NSString* mSubject;
+    NSString* mType;
     NSDate* mDate;
+    NSString* mFrequency;
+    NSString* mTerm;
+    NSNumber* mCost;
 }
 
-- (id)initWithSubject:(NSString*) subject WithDateInterval:(NSTimeInterval) interval;
-- (NSString*)getSubject;
+- (id)initWithType:(NSString*) type WithFrequency:(NSString*) frequency WithTerm:(NSString*) term WithCost:(NSNumber*) cost WithDateInterval:(NSTimeInterval) interval;
+- (NSString*)getType;
+- (NSString*)getFrequency;
+- (NSString*)getTerm;
+- (NSNumber*)getCost;
 - (NSString*)getDateAsString;
+- (NSTimeInterval)getDateAsTimeInterval;
+- (NSDate*)getDate;
+
+- (void)setType:(NSString*) type;
+- (void)setFrequency:(NSString*) freq;
+- (void)setTerm:(NSString*) term;
+- (void)setCost:(NSNumber*) cost;
+- (void)setDate:(NSDate*) date;
 
 @end

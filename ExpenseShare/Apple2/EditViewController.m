@@ -29,11 +29,18 @@ bool isEditing;
     //    NSArray* wordList = [[NSArray alloc] initWithObjects:@"type", @"Repeat", @"Term", @"Cost", nil];
     isEditing = false;
     
+    if (nil == mEvent)
+    {
+        NSLog(@"Error in %s:%s event is nil", __FILE__, __FUNCTION__);
+        assert(false);
+    }
+    
     self.propList = [[NSMutableDictionary alloc] initWithCapacity:4];
-    [self.propList setObject:@"Water" forKey:@"Type"];
-    [self.propList setObject:@"Week" forKey:@"Repeat"];
-    [self.propList setObject:@"Take turn" forKey:@"Term"];
-    [self.propList setObject:@"100" forKey:@"Cost"];
+    [self.propList setObject:[mEvent getType] forKey:@"Type"];
+    [self.propList setObject:[mEvent getFrequency] forKey:@"Repeat"];
+    [self.propList setObject:[mEvent getTerm] forKey:@"Term"];
+    [self.propList setObject:[NSString stringWithFormat:@"%.02f", [[mEvent getCost] floatValue]] forKey:@"Cost"];
+    [self.datePicker setDate:[mEvent getDate]];
     
     self.propKey = [[NSArray alloc] initWithObjects:@"Type", @"Repeat", @"Term", @"Cost", nil];
 
@@ -63,6 +70,10 @@ bool isEditing;
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)setEvent:(Event*) event
+{
+    mEvent = event;
+}
 
 #pragma mark - Table view data source
 
@@ -143,15 +154,12 @@ bool isEditing;
         [segue.destinationViewController setChoice:[self.propList objectForKey:[self.propKey objectAtIndex:selectedRowIndex.row]]];
         [segue.destinationViewController setSelected:selectedRowIndex.row];
         [segue.destinationViewController setDelegate:self];
-    }else
+    } else
     {
         [segue.destinationViewController setAmount:[self.propList objectForKey:@"Cost"]];
         [segue.destinationViewController setDelegate:self];
     }
-    
 }
-
-
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -185,6 +193,14 @@ bool isEditing;
         if (isEditing == true) {           
             [(UIBarButtonItem *)sender setTitle:@"Edit"];
             isEditing = false;
+            NSLog(@"%@", self.propList);
+            
+            [mEvent setType:[self.propList objectForKey:@"Type"]];
+            [mEvent setFrequency:[self.propList objectForKey:@"Repeat"]];
+            [mEvent setTerm:[self.propList objectForKey:@"Term"]];
+            [mEvent setCost:[NSNumber numberWithFloat:[[self.propList objectForKey:@"Cost"] floatValue]]];
+            [mEvent setDate:[self.datePicker date]];
+//            NSLog(@"Date: %@", [self.datePicker date]);
         }
         else {
             [(UIBarButtonItem *)sender setTitle:@"Done"];

@@ -9,15 +9,20 @@
 #import <UIKit/UIKit.h>
 #import "DetailView.h"
 #import "CostDetailController.h"
-
+#import "Event.h"
 
 @interface EditViewController : UIViewController<UITableViewDelegate,UITableViewDataSource, DetailViewDelegate, CostDetailDelegate>
+{
+    Event* mEvent;
+}
 //@interface AddSchedule : UIViewController<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic, strong) NSMutableDictionary* propList;
 @property(nonatomic, strong) NSArray* propKey;
 @property(nonatomic, strong) NSMutableArray* data;
 - (IBAction)edit:(UIBarButtonItem*)sender;
 - (IBAction)cancel:(UIBarButtonItem*)sender;
+
+- (void)setEvent:(Event*) event;
 @end
 
 
