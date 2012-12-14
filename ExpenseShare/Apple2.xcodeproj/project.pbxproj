@@ -35,6 +35,8 @@
 		B929FE0A1665361C009FF28D /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B929FE091665361C009FF28D /* EventTableViewCell.m */; };
 		B929FE101665366F009FF28D /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = B929FE0F1665366F009FF28D /* Event.m */; };
 		B929FE16166544E8009FF28D /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B929FE15166544E8009FF28D /* FeedTableViewCell.m */; };
+		B929FE321668316C009FF28D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B929FE311668316C009FF28D /* Default-568h@2x.png */; };
+		B929FE3316683F8B009FF28D /* InviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020EDA9916560F73007F2E80 /* InviteViewController.m */; };
 		B9A427CA1660D8420020EE93 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A427C81660D8410020EE93 /* MainTableViewController.m */; };
 		B9A427CB1660D8420020EE93 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A427C91660D8420020EE93 /* MainTableViewController.xib */; };
 		B9A427CE16624E700020EE93 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A427CD16624E700020EE93 /* Profile.m */; };
@@ -91,6 +93,7 @@
 		B929FE0F1665366F009FF28D /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		B929FE14166544E7009FF28D /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
 		B929FE15166544E8009FF28D /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		B929FE311668316C009FF28D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		B9A427C71660D8410020EE93 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		B9A427C81660D8410020EE93 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		B9A427C91660D8420020EE93 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
@@ -142,14 +145,14 @@
 		226517C01653F5BE008183CE /* Apple2 */ = {
 			isa = PBXGroup;
 			children = (
-				226517C91653F5BE008183CE /* AppDelegate.h */,
-				226517CA1653F5BE008183CE /* AppDelegate.m */,
 				226517CC1653F5BE008183CE /* MainStoryboard_iPhone.storyboard */,
 				226517CF1653F5BE008183CE /* MainStoryboard_iPad.storyboard */,
 				B9A427C91660D8420020EE93 /* MainTableViewController.xib */,
 				2288C5BB1655DE9F00F961E6 /* RoomieHelperViewController.xib */,
 				2288C5B81655DE9800F961E6 /* MainWindow.xib */,
 				2288C5CC1655F5A000F961E6 /* SignUpViewController.xib */,
+				226517C91653F5BE008183CE /* AppDelegate.h */,
+				226517CA1653F5BE008183CE /* AppDelegate.m */,
 				22BDD777165570D40028052A /* EditViewController.h */,
 				22BDD778165570D50028052A /* EditViewController.m */,
 				22F0D6F71654BCB300D69715 /* OtherDetailView.h */,
@@ -183,6 +186,7 @@
 		226517C11653F5BE008183CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B929FE311668316C009FF28D /* Default-568h@2x.png */,
 				B929FE061664989D009FF28D /* osx.jpg */,
 				2288C5C61655ED3900F961E6 /* temp.jpg */,
 				226517C21653F5BE008183CE /* Apple2-Info.plist */,
@@ -273,6 +277,7 @@
 				2288C5CD1655F5A100F961E6 /* SignUpViewController.xib in Resources */,
 				B9A427CB1660D8420020EE93 /* MainTableViewController.xib in Resources */,
 				B929FE071664989D009FF28D /* osx.jpg in Resources */,
+				B929FE321668316C009FF28D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +306,7 @@
 				B929FE0A1665361C009FF28D /* EventTableViewCell.m in Sources */,
 				B929FE101665366F009FF28D /* Event.m in Sources */,
 				B929FE16166544E8009FF28D /* FeedTableViewCell.m in Sources */,
+				B929FE3316683F8B009FF28D /* InviteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,11 +14,11 @@
 #pragma mark - View lifecycle
 
 /*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
+ // Implement loadView to create a view hierarchy programmatically, without using a nib.
+ - (void)loadView
+ {
+ }
+ */
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -26,22 +26,20 @@
 {
     [super viewDidLoad];
     
-     switch (self.selectedName) {
-     case 0:
-     [self.label setText:@"Type: "];
-     [self.textField setText:self.curType];
-     break;
-     case 2:
-     [self.label setText:@"Pay By: "];
-     [self.textField setText:self.curType];
-     break;
-     default:
-     break;
-     }
-     [self.textField setReturnKeyType:UIReturnKeyDone];
-     [self.textField addTarget:self action:@selector(textFieldFinished:) forControlEvents:UIControlEventEditingDidEndOnExit];
-     
-
+    switch (self.selectedName) {
+        case 0:
+            [self.label setText:@"Type: "];
+            [self.textField setText:self.curType];
+            break;
+        case 2:
+            [self.label setText:@"Pay By: "];
+            [self.textField setText:self.curType];
+            break;
+        default:
+            break;
+    }
+ 
+    [self.textField addTarget:self action:@selector(textFieldFinished:) forControlEvents:UIControlEventEditingDidEndOnExit];
 }
 
 - (void)viewDidUnload
@@ -51,13 +49,12 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
+
 -(void) viewWillDisappear:(BOOL)animated {
     if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
         // back button was pressed.  We know this is true because self is no longer
-        // in the navigation stack.  
-        NSLog(@"test");  
-        [self.delegate currentLabel:self.textField.text];
-        
+        // in the navigation stack.
+        NSLog(@"test");
     }
     [super viewWillDisappear:animated];
 }
@@ -68,16 +65,18 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-
 - (IBAction)textFieldFinished:(id)sender
 {
+    NSLog(@"%s", __FUNCTION__);
     [sender resignFirstResponder];
 }
 
-- (IBAction)reset:(UIBarButtonItem *)sender{
-    [self.textField setText:@""];
+- (IBAction)done:(id)sender;
+{
+    NSLog(@"%s", __FUNCTION__);
+    [self.delegate currentLabel:self.textField.text];
+    [self.view endEditing:YES];
 }
-
 
 
 @end

@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InviteViewController : UIViewController
+@interface InviteViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *txtInviteEmail;
 @property (weak, nonatomic) IBOutlet UITextView *txtInviteContent;
 
 - (IBAction)btnInviteSubmit:(id)sender;
-
 
 @end

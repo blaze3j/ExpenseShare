@@ -13,6 +13,8 @@
 @end
 
 @implementation InviteViewController
+@synthesize txtInviteEmail;
+@synthesize txtInviteContent;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,30 +37,32 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)viewDidUnload {
+- (void)viewDidUnload
+{
     [self setTxtInviteEmail:nil];
     [self setTxtInviteContent:nil];
     [super viewDidUnload];
 }
 
-- (void)textFieldShouldReturn:(UITextField *)theTextField {
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField
+{
     if (theTextField == self.txtInviteEmail) {
         [theTextField resignFirstResponder];
     }
+    
+    return YES;
 }
-
 
 - (IBAction)btnInviteSubmit:(id)sender {
     
     [self.txtInviteEmail resignFirstResponder];
     [self.txtInviteContent resignFirstResponder];
-        
+    
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Invite"
-                                                      message:[self.txtInviteEmail text]
+                                                      message:[NSString stringWithFormat:@"To:\n%@\nMessage:\n%@", txtInviteEmail.text, txtInviteContent.text]
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
     [message show];
-    
-}
+    }
 @end

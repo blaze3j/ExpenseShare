@@ -7,7 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RoomieHelperViewController : UIViewController <UITextFieldDelegate>{
+@interface RoomieHelperViewController : UIViewController <UITextFieldDelegate>
+{
 	
 	IBOutlet UILabel *Label;
 	IBOutlet UIButton *Button;

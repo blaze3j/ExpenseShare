@@ -18,6 +18,6 @@
 @property (retain,nonatomic) IBOutlet UILabel* label;
 @property (retain,nonatomic) IBOutlet UITextField* textField;
 @property (nonatomic, weak) id<OtherDetailDelegate> delegate; 
-- (IBAction)reset:(UIBarButtonItem *)sender;
+- (IBAction)done:(id)sender;
 //-(void) setSelectedName:(NSInteger)selectedName;
 @end
