@@ -29,11 +29,11 @@
     switch (self.selectedName) {
         case 0:
             [self.label setText:@"Type: "];
-            [self.textField setText:self.curType];
+            [self.textField setPlaceholder:self.curType];
             break;
         case 2:
             [self.label setText:@"Pay By: "];
-            [self.textField setText:self.curType];
+            [self.textField setPlaceholder:self.curType];
             break;
         default:
             break;
@@ -71,11 +71,23 @@
     [sender resignFirstResponder];
 }
 
+#pragma mark button action
+- (IBAction)cancel:(UIBarButtonItem*)sender
+{
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 - (IBAction)done:(id)sender;
 {
     NSLog(@"%s", __FUNCTION__);
-    [self.delegate currentLabel:self.textField.text];
-    [self.view endEditing:YES];
+    if (![self.textField.text isEqualToString:@""]) {
+        [self.delegate currentLabel:self.textField.text];
+
+        NSLog(self.textField.text);
+    }
+    
+        [self.view endEditing:YES];
+        [self dismissModalViewControllerAnimated:YES];
 }
 
 

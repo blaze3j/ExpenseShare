@@ -154,7 +154,7 @@
     if ((self.selected == 0 && indexPath.row == [self.choicesList count]-1) || (self.selected == 2 && indexPath.row == [self.choicesList count]-1)) {
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;        
     }
-    if (cell.textLabel.text == self.choice) {
+    if ([cell.textLabel.text isEqualToString:self.choice]) {
         self.selectedPath = indexPath;
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }
@@ -190,18 +190,21 @@
     selectedRowIndex.row = [self.choicesList count] - 1;
     UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:self.selectedPath];*/
 //    if (selectedRowIndex.row == 0 || selectedRowIndex.row == 2) {
-        [segue.destinationViewController setSelectedName:self.selected];
+ //       [segue.destinationViewController setSelectedName:self.selected];
+    [[[[segue destinationViewController]viewControllers]objectAtIndex:0] setSelectedName:self.selected];
  //   NSString* temp;
 
 //    if ([self.choicesList objectAtIndex:[self.choicesList count]-1] != self.originalText) 
-        [segue.destinationViewController setCurType:[self.choicesList objectAtIndex:[self.choicesList count]-1]];
-
+ //       [segue.destinationViewController setCurType:[self.choicesList objectAtIndex:[self.choicesList count]-1]];
+    [[[[segue destinationViewController]viewControllers]objectAtIndex:0] setCurType:[self.choicesList objectAtIndex:[self.choicesList count]-1]];
 //        temp = [self.choicesList objectAtIndex:[self.choicesList count]-1];
  /*   }else
         temp = @"";
    */ 
  //       [segue.destinationViewController setCurType:temp];
-        [segue.destinationViewController setDelegate:self];
+        //[segue.destinationViewController setDelegate:self];
+    
+    [[[[segue destinationViewController]viewControllers]objectAtIndex:0] setDelegate:self];
 //    }
    
     
@@ -247,7 +250,7 @@
 #pragma mark functions
 - (void) currentLabel:(NSString *)label
 {
-    if (label != nil && self.choice != label) {
+    if (![label isEqualToString:@""] && ![self.choice isEqualToString:label]) {
         self.choice = label;
         NSLog(@"%@", [label description]);
         [self.choicesList insertObject:label atIndex:([self.choicesList count]-1)];

@@ -135,9 +135,6 @@
           [[[[segue destinationViewController]viewControllers]objectAtIndex:0]setDelegate:self];
   //      [[[[[segue destinationViewController]viewControllers]objectAtIndex:0]setData:[self.dataArray objectAtIndex:[[self.tableView indexPathForSelectedRow].row]]];
     }
-    
-  
-
 }
 
 

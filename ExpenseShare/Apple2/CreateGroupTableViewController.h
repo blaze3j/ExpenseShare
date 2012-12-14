@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InviteViewController.h"
 
-@interface CreateGroupTableViewController : UITableViewController
-{
-    
-}
+@interface CreateGroupTableViewController : UITableViewController<UITableViewDelegate,UITableViewDataSource, InviteProtocol>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *btnCreateGroup;
 
@@ -20,6 +18,10 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *tblcelCreateGroupPeifen;
 @property (weak, nonatomic) IBOutlet UITableViewCell *tblcelCreateGroupJerry;
 @property (strong, nonatomic) IBOutlet UITextField *groupNameField;
+
+@property (nonatomic, strong) NSMutableArray* memberList;
+@property (nonatomic, strong) NSMutableArray* emailList;
+@property (nonatomic, strong) NSMutableArray* statusList;
 
 - (IBAction)btnCreateGroupDone:(id)sender;
 - (IBAction)setGroup:(id)sender;

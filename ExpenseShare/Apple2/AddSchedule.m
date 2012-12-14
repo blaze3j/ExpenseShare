@@ -96,7 +96,6 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
 
-    
     // Configure the cell...
     
     cell.textLabel.text = [self.propKey objectAtIndex:indexPath.row];

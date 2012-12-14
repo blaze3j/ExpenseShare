@@ -8,10 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol InviteProtocol<NSObject>
+    -(void) updateMembers: (NSString*) data;
+@end
+
 @interface InviteViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *txtInviteEmail;
 @property (weak, nonatomic) IBOutlet UITextView *txtInviteContent;
+
+@property (nonatomic, weak) id <InviteProtocol> delegate;
 
 - (IBAction)btnInviteSubmit:(id)sender;
 

@@ -9,12 +9,12 @@
 #import "InviteViewController.h"
 
 @interface InviteViewController ()
-
 @end
 
 @implementation InviteViewController
 @synthesize txtInviteEmail;
 @synthesize txtInviteContent;
+@synthesize delegate = _delegate;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +29,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    if (self.delegate == nil) {
+        NSLog(@"www....");
+    }else{
+        NSLog(@"okok");
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,18 +58,34 @@
     return YES;
 }
 
+-(void) viewWillDisappear:(BOOL)animated {
+    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
+        // back button was pressed.  We know this is true because self is no longer
+        // in the navigation stack.
+        NSLog(@"test, in will disappear");
+    }
+    [super viewWillDisappear:animated];
+}
+
+- (IBAction)cancel:(UIBarButtonItem*)sender
+{
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 - (IBAction)btnInviteSubmit:(id)sender {
-    
     [self.txtInviteEmail resignFirstResponder];
     [self.txtInviteContent resignFirstResponder];
-    
-    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Invite"
-                                                      message:[NSString stringWithFormat:@"To: %@\n%@", txtInviteEmail.text, txtInviteContent.text]
-                                                     delegate:nil
-                                            cancelButtonTitle:@"OK"
-                                            otherButtonTitles:nil];
-    
-    [message show];
+
+    if(self.delegate)
+        NSLog(@"hahaha in invite");
+    else
+        NSLog(@"why in invite");
+    NSLog(@"%s", __FUNCTION__);
+    if (![txtInviteEmail.text isEqualToString:@""]) {
+        [self.delegate updateMembers:txtInviteEmail.text];
+    }
+
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 @end
