@@ -34,6 +34,7 @@
 - (NSNumber*)getOwed;
 - (NSString*)getOwedAsString;
 - (NSString*)getIndividualOweAsString;
+- (NSString*)getDueEventCount;
 - (NSMutableArray*)getEvents;
 - (NSMutableArray*)getMembers;
 

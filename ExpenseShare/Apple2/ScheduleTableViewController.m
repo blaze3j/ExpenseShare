@@ -32,7 +32,12 @@
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applicationDidEnterBackground:)
                                                  name:UIApplicationDidEnterBackgroundNotification object:nil];
+
+    Profile* profile = [ActiveProfile sharedInstance];
+
+    [UIApplication sharedApplication].applicationIconBadgeNumber = [[profile getDueEventCount] intValue];
     
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -194,6 +199,8 @@
     
     DataAccess* db = [[DataAccess alloc] init];
     [db setEventsForProfile:profile];
+
+    [UIApplication sharedApplication].applicationIconBadgeNumber = [[profile getDueEventCount] intValue];
 
     [self.dataArray insertObject:data atIndex:[self.dataArray count]];
     [self.tableView reloadData];

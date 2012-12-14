@@ -127,6 +127,29 @@
     return [NSNumber numberWithFloat:total];
 }
 
+- (NSNumber*)getDueEventCount
+{
+    NSDate* today = [NSDate date];
+    NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+    [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+    [dateFormatter setDateFormat:@"yyyy'/'MM'/'dd'"];
+    
+    NSString* todayString = [dateFormatter stringFromDate:today];
+    NSLog(@"formattedDateString: %@", todayString);
+    
+    float count = 0.0;
+    
+    for (Event* e in mEvents)
+    {
+        if (false == [[e getDateAsString] isEqualToString:todayString])
+            continue;
+        count++;
+    }
+    
+    return [NSNumber numberWithFloat:count];
+}
+
 - (NSString*)getIndividualOweAsString
 {
     return [NSString stringWithFormat:@"$%.02f", [[self getIndividualCost] floatValue]];

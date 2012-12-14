@@ -52,7 +52,6 @@
     [dateFormatter setDateFormat:@"yyyy'/'MM'/'dd'"];
 
     NSString* formattedDateString = [dateFormatter stringFromDate:mDate];
-    NSLog(@"formattedDateString: %@", formattedDateString);
 
     return formattedDateString;
 }
