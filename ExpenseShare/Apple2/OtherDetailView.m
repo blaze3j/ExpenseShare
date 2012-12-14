@@ -83,7 +83,7 @@
     if (![self.textField.text isEqualToString:@""]) {
         [self.delegate currentLabel:self.textField.text];
 
-        NSLog(self.textField.text);
+        NSLog(@"%@", self.textField.text);
     }
     
         [self.view endEditing:YES];

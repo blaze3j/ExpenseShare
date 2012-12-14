@@ -948,7 +948,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="backgroundColor" red="0.61176472900000001" green="0.73725491759999995" blue="0.87450987099999999" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="VmZ-kZ-P7D">
-                        <barButtonItem key="leftBarButtonItem" title="Item" systemItem="cancel" id="hGp-zd-as3">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="hGp-zd-as3">
                             <connections>
                                 <action selector="cancel:" destination="9Pc-25-ZPY" id="S6K-pK-vGc"/>
                             </connections>
