@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CreateGroupTableViewController : UITableViewController
+{
+    
+}
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *btnCreateGroup;
 
@@ -16,7 +19,9 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *tblcelCreateGroupIan;
 @property (weak, nonatomic) IBOutlet UITableViewCell *tblcelCreateGroupPeifen;
 @property (weak, nonatomic) IBOutlet UITableViewCell *tblcelCreateGroupJerry;
+@property (strong, nonatomic) IBOutlet UITextField *groupNameField;
 
 - (IBAction)btnCreateGroupDone:(id)sender;
+- (IBAction)setGroup:(id)sender;
 
 @end

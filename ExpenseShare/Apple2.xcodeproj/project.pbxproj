@@ -40,6 +40,7 @@
 		B929FE3A1669FD07009FF28D /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = B929FE391669FD06009FF28D /* DataAccess.m */; };
 		B929FE3C166A02BE009FF28D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B929FE3B166A02BE009FF28D /* libsqlite3.dylib */; };
 		B929FE3D166A23CB009FF28D /* CreateGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020EDA9B16560F73007F2E80 /* CreateGroupTableViewController.m */; };
+		B929FE4D166C03AD009FF28D /* ActiveProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B929FE4C166C03AC009FF28D /* ActiveProfile.m */; };
 		B9A427CA1660D8420020EE93 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A427C81660D8410020EE93 /* MainTableViewController.m */; };
 		B9A427CB1660D8420020EE93 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A427C91660D8420020EE93 /* MainTableViewController.xib */; };
 		B9A427CE16624E700020EE93 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A427CD16624E700020EE93 /* Profile.m */; };
@@ -100,6 +101,8 @@
 		B929FE391669FD06009FF28D /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
 		B929FE3B166A02BE009FF28D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		B929FE3F166A2970009FF28D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B929FE4B166C03AC009FF28D /* ActiveProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveProfile.h; sourceTree = "<group>"; };
+		B929FE4C166C03AC009FF28D /* ActiveProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveProfile.m; sourceTree = "<group>"; };
 		B9A427C71660D8410020EE93 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		B9A427C81660D8410020EE93 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		B9A427C91660D8420020EE93 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
@@ -223,6 +226,8 @@
 				B929FE091665361C009FF28D /* EventTableViewCell.m */,
 				B929FE14166544E7009FF28D /* FeedTableViewCell.h */,
 				B929FE15166544E8009FF28D /* FeedTableViewCell.m */,
+				B929FE4B166C03AC009FF28D /* ActiveProfile.h */,
+				B929FE4C166C03AC009FF28D /* ActiveProfile.m */,
 			);
 			name = MainPage;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				B929FE3316683F8B009FF28D /* InviteViewController.m in Sources */,
 				2288C5C41655DEAD00F961E6 /* LoginViewController.m in Sources */,
 				B929FE3A1669FD07009FF28D /* DataAccess.m in Sources */,
+				B929FE4D166C03AD009FF28D /* ActiveProfile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

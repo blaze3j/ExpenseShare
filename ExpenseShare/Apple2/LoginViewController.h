@@ -9,12 +9,13 @@
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate>
 {
-	
 	IBOutlet UILabel *Label;
 	IBOutlet UIButton *Button;
 	IBOutlet UITextField *Email;
 	IBOutlet UITextField *Password;
 	IBOutlet UIButton *SignUp_Button;
+    
+    NSString* mEmail;
 }
 
 @property (nonatomic, retain) UILabel *Label;
@@ -26,6 +27,7 @@
 -(IBAction) login_OnClick: (id) sender;
 //-(IBAction) signUp_OnClick: (id) sender;
 -(BOOL)isValidLogin;
+-(void)setEmailText:(NSString*) email;
 
 @end
 

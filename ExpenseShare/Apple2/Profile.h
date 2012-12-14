@@ -25,9 +25,16 @@
 - (NSString*)getEmail;
 - (NSString*)getPassword;
 - (NSString*)getGroup;
+-(NSString*)getImagePath;
 - (UIImage*)getImage;
+- (NSNumber*)getOwe;
 - (NSString*)getOweAsString;
+- (NSNumber*)getOwed;
 - (NSString*)getOwedAsString;
 
+- (void)setProfileWithProfile:(Profile*) profile;
+- (void)setGroup:(NSString*) group;
+- (void)setOwed:(NSNumber*) owed;
+- (void)setOwe:(NSNumber*) owe;
 
 @end

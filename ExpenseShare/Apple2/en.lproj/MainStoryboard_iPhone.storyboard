@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="JJh-RS-5gP" customClass="ScheduleTableViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cgs-7d-ZJI">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="d3X-ml-S7C">
@@ -58,7 +58,7 @@
             <objects>
                 <viewController id="tb6-ZF-Q16" customClass="DetailView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o5S-Rf-Wnd">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="zat-fH-wu5">
@@ -147,41 +147,45 @@
             </objects>
             <point key="canvasLocation" x="1541" y="1968"/>
         </scene>
-        <!--Create Group Table View Controller - Create Group-->
+        <!--Create Group Table View Controller - My Group-->
         <scene sceneID="nWz-cm-VvB">
             <objects>
                 <tableViewController storyboardIdentifier="CreateGroupTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qt8-kc-CoZ" customClass="CreateGroupTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="yX6-7H-1Jv">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.61176472900000001" green="0.73725491759999995" blue="0.87450987099999999" alpha="1" colorSpace="deviceRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="hoC-CE-apc">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="qFP-sQ-9nD">
+                                    <rect key="frame" x="9" y="58" width="302" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <action selector="setGroup:" destination="Qt8-kc-CoZ" eventType="editingDidEnd" id="HPn-Ry-jFu"/>
+                                        <action selector="setGroup:" destination="Qt8-kc-CoZ" eventType="valueChanged" id="l0b-Gs-2ZX"/>
+                                        <outlet property="delegate" destination="Qt8-kc-CoZ" id="VrR-8h-mBR"/>
+                                    </connections>
+                                </textField>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jma-Hq-3NN">
+                                    <rect key="frame" x="20" y="20" width="92" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                    <color key="shadowColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </view>
                         <sections>
-                            <tableViewSection headerTitle="Name" id="rLP-un-6dA">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Dub-6k-U2h" style="IBUITableViewCellStyleDefault" id="xV6-rR-8CF">
-                                        <rect key="frame" x="0.0" y="46" width="320" height="46"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="300" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="LoveLoveHouse" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Dub-6k-U2h">
-                                                    <rect key="frame" x="10" y="0.0" width="280" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
                             <tableViewSection headerTitle="Members" id="b5r-zi-Wu6">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" textLabel="MGv-M4-AtV" detailTextLabel="P9T-yf-20h" style="IBUITableViewCellStyleSubtitle" id="oAb-2V-Bdk">
-                                        <rect key="frame" x="0.0" y="138" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="124" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
@@ -206,7 +210,7 @@
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" textLabel="VW6-ub-nJa" detailTextLabel="apF-e5-kKx" style="IBUITableViewCellStyleSubtitle" id="cFS-7Y-WiI">
-                                        <rect key="frame" x="0.0" y="183" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="169" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
@@ -231,7 +235,7 @@
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" textLabel="g8n-h4-LWl" detailTextLabel="375-zQ-OX2" style="IBUITableViewCellStyleSubtitle" id="rLT-EP-2lS">
-                                        <rect key="frame" x="0.0" y="227" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="213" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
@@ -256,7 +260,7 @@
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" textLabel="uUO-1h-83m" detailTextLabel="tYY-4w-08I" style="IBUITableViewCellStyleSubtitle" id="T6i-nG-3Ic">
-                                        <rect key="frame" x="0.0" y="271" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="257" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
@@ -281,7 +285,7 @@
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="yXq-3n-cMc">
-                                        <rect key="frame" x="0.0" y="315" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="301" width="320" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="0.0" width="300" height="43"/>
@@ -314,24 +318,27 @@
                             <outlet property="delegate" destination="Qt8-kc-CoZ" id="nPu-KH-5Xp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Create Group" id="hWA-fc-D2q">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="3Ge-XQ-abc">
+                    <navigationItem key="navigationItem" title="My Group" id="hWA-fc-D2q">
+                        <barButtonItem key="rightBarButtonItem" title="Profile" id="3Ge-XQ-abc">
                             <connections>
-                                <segue destination="Y0K-Pw-dQx" kind="modal" id="dxr-qA-ntD"/>
+                                <segue destination="Y0K-Pw-dQx" kind="modal" identifier="NavigationMainPage" id="xf9-la-aEJ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="groupNameField" destination="qFP-sQ-9nD" id="ZM6-cP-J9S"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddl-NC-DRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-577" y="804"/>
+            <point key="canvasLocation" x="-576" y="182"/>
         </scene>
         <!--Invite View Controller - Invite-->
         <scene sceneID="w4v-c4-IpA">
             <objects>
                 <viewController id="34s-gi-nXs" customClass="InviteViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ydy-kf-F0C">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Message:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DuZ-gE-xaS">
@@ -389,7 +396,7 @@ Jenny.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERO-GS-7da" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44" y="182"/>
+            <point key="canvasLocation" x="-37" y="-538"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pSK-bd-J3V">
@@ -411,7 +418,7 @@ Jenny.
             <objects>
                 <viewController storyboardIdentifier="LoginViewController" id="Wjf-Xg-iPA" customClass="LoginViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H4t-Le-emG">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="moK-Qa-0Ar">
@@ -426,13 +433,16 @@ Jenny.
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" id="TFc-RS-jKv">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" id="TFc-RS-jKv">
                                 <rect key="frame" x="137" y="172" width="123" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="go" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="login_OnClick:" destination="Wjf-Xg-iPA" eventType="editingDidEndOnExit" id="KhQ-bB-5uV"/>
+                                </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minimumFontSize="17" id="rlc-Ij-Mog">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" id="rlc-Ij-Mog">
                                 <rect key="frame" x="111" y="141" width="149" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -506,7 +516,7 @@ Jenny.
             <objects>
                 <viewController storyboardIdentifier="SignUpViewController" id="ixC-5E-R1M" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a1O-sC-8dt" customClass="UIControl">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="JmO-fy-vsI">
@@ -645,11 +655,12 @@ Jenny.
                         <outlet property="Re_Email" destination="XzC-T6-kfa" id="Et0-11-GWc"/>
                         <outlet property="Re_Password" destination="Bcn-8y-tfR" id="UJ5-aY-UtU"/>
                         <outlet property="SignUpButton" destination="ZaZ-Rc-Iuy" id="H5P-lt-dow"/>
+                        <segue destination="Wjf-Xg-iPA" kind="push" identifier="LoginViewController" id="hux-fE-Tcs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DVM-eF-nKP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-577" y="-398"/>
+            <point key="canvasLocation" x="-1116" y="-550"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LWD-vw-FD9">
@@ -672,7 +683,7 @@ Jenny.
             <objects>
                 <tableViewController id="Cz1-qE-lIw" customClass="MainTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Vvj-P9-yF3">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
@@ -797,6 +808,11 @@ Jenny.
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="kGe-y5-mEO">
+                        <barButtonItem key="leftBarButtonItem" title="Group" id="orL-9E-EMb">
+                            <connections>
+                                <segue destination="Qt8-kc-CoZ" kind="push" id="sVT-1Y-wEc"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Add Schedule" id="RgX-1E-WU9">
                             <connections>
                                 <segue destination="JJh-RS-5gP" kind="push" id="1Lv-d8-QpG"/>
@@ -818,7 +834,7 @@ Jenny.
             <objects>
                 <viewController id="V4P-bC-EJg" customClass="AddSchedule" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3oT-sy-FHc">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="yMe-7D-sIb">
@@ -948,7 +964,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <viewController id="K0Y-cW-zY1" customClass="CostDetailController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OSu-nf-B2u">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Amount" lineBreakMode="tailTruncation" minimumFontSize="10" id="u1w-cI-97I">
@@ -981,7 +997,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <viewController id="9Pc-25-ZPY" customClass="OtherDetailView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fjc-3b-eD5">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="T1f-T9-Tnt">
@@ -1021,11 +1037,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <objects>
                 <viewController id="02W-LF-Azv" customClass="EditViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sGa-fz-vjP">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="VvJ-ab-7vq">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="373"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="417"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
@@ -1166,7 +1182,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CreateGroupTableViewController.h"/>
             <relationships>
                 <relationship kind="action" name="btnCreateGroupDone:"/>
+                <relationship kind="action" name="setGroup:"/>
                 <relationship kind="outlet" name="btnCreateGroup" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="groupNameField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="tblcelCreateGroupIan" candidateClass="UITableViewCell"/>
                 <relationship kind="outlet" name="tblcelCreateGroupJerry" candidateClass="UITableViewCell"/>
                 <relationship kind="outlet" name="tblcelCreateGroupJoanne" candidateClass="UITableViewCell"/>
@@ -1233,6 +1251,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OtherDetailView.h"/>
             <relationships>
                 <relationship kind="action" name="done:"/>
+                <relationship kind="action" name="textFieldFinished:"/>
                 <relationship kind="outlet" name="label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
@@ -1272,7 +1291,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="sVT-1Y-wEc"/>
         <segue reference="V1V-hP-9x9"/>
         <segue reference="10k-y9-l1I"/>
+        <segue reference="hux-fE-Tcs"/>
     </inferredMetricsTieBreakers>
 </document>

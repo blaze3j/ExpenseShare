@@ -62,9 +62,19 @@
     return mGroup;
 }
 
+-(NSString*)getImagePath
+{
+    return mImagePath;
+}
+
 - (UIImage*)getImage
 {
     return [UIImage imageNamed:mImagePath];
+}
+
+- (NSNumber*)getOwe
+{
+    return mOwe;
 }
 
 - (NSString*)getOweAsString
@@ -72,9 +82,40 @@
     return [NSString stringWithFormat:@"$%.2f", [mOwe floatValue]];
 }
 
+- (NSNumber*)getOwed
+{
+    return mOwed;
+}
+
 - (NSString*)getOwedAsString
 {
     return [NSString stringWithFormat:@"$%.2f", [mOwed floatValue]];
+}
+
+- (void)setProfileWithProfile:(Profile*) profile
+{
+    mName = [profile getName];
+    mEmail = [profile getEmail];
+    mPassword = [profile getPassword];
+    mGroup = [profile getGroup];
+    mImagePath = [profile getImagePath];
+    mOwe = [profile getOwe];
+    mOwed = [profile getOwed];
+}
+
+- (void)setGroup:(NSString*)group
+{
+    mGroup = group;
+}
+
+- (void)setOwed:(NSNumber*) owed
+{
+    mOwed = owed;
+}
+
+- (void)setOwe:(NSNumber*) owe
+{
+    mOwe = owe;
 }
 
 @end

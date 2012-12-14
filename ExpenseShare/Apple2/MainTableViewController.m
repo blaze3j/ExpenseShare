@@ -8,6 +8,7 @@
 
 #import "MainTableViewController.h"
 #import "Event.h"
+#import "ActiveProfile.h"
 
 @interface MainTableViewController ()
 
@@ -33,7 +34,6 @@
 {
     [super viewDidLoad];
 
-    mProfile = [[Profile alloc] init];
     mEventList = [NSArray arrayWithObjects:[[Event alloc] initWithSubject:@"Electrical" WithDateInterval:1334041160.459764],[[Event alloc] initWithSubject:@"Water" WithDateInterval:1354041160.459764], nil];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -83,13 +83,15 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
+    Profile* profile = [ActiveProfile sharedInstance];
+;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         // Configure the cell...
         switch ([indexPath indexAtPosition:0])
         {
             case 0:
-                [profileCell setProfile:mProfile];
+                [profileCell setProfile:profile];
                 cell = profileCell;
                 break;
             case 1:
@@ -178,16 +180,17 @@
 - (NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     NSString* sectionName = nil;
+    Profile* profile = [ActiveProfile sharedInstance];
     switch (section)
     {
         case 0:
-            sectionName = NSLocalizedString([mProfile getName], [mProfile getName]);
+            sectionName = NSLocalizedString([profile getName], [profile getName]);
             break;
         case 1:
             sectionName = NSLocalizedString(@"Upcoming Event", @"Upcoming Event");
             break;
         case 2:
-            sectionName = NSLocalizedString([mProfile getGroup], [mProfile getGroup]);
+            sectionName = NSLocalizedString([profile getGroup], [profile getGroup]);
             break;
         default:
             sectionName = @"";

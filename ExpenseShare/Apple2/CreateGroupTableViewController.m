@@ -7,22 +7,45 @@
 //
 
 #import "CreateGroupTableViewController.h"
+#import "MainTableViewController.h"
+#import "DataAccess.h"
+#import "ActiveProfile.h"
 
 @interface CreateGroupTableViewController ()
 
 @end
 
 @implementation CreateGroupTableViewController
-
+@synthesize groupNameField;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        
     }
     return self;
+}
+
+- (IBAction)setGroup:(id)sender
+{
+    Profile* profile = [ActiveProfile sharedInstance];
+    if (nil != profile)
+    {
+        [profile setGroup:groupNameField.text];
+        
+        DataAccess* db = [[DataAccess alloc] init];
+        [db setProfileByGroupWithProfile:profile];
+    }
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField {
+	if (textField == groupNameField)
+    {
+        [textField resignFirstResponder];
+        [self setGroup:textField];
+    }
+    return NO;
 }
 
 - (void)viewDidLoad
@@ -34,7 +57,13 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-
+    
+    Profile* profile = [ActiveProfile sharedInstance];
+    NSString* group = [profile getGroup];
+    if (nil != group)
+    {
+        groupNameField.text = group;
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -139,6 +168,8 @@
     [self setTblcelCreateGroupJerry:nil];
  [self setBtnCreateGroup:nil];
  [self setBtnCreateGroupDone:nil];
+ [self setGroupName:nil];
+ [self setGroupNameField:nil];
 */    [super viewDidUnload];
 }
 

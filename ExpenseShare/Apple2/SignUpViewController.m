@@ -20,8 +20,6 @@
 @synthesize Re_Password;
 @synthesize Cancel;
 
-
-
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	
 	[Name resignFirstResponder];
@@ -35,18 +33,42 @@
 	
 	if (self.isValidSignUp)
     {
-        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Success!"
-                                                       message:@"You have successfully created an account! Please log in with the login page."
-                                                      delegate:self
-                                             cancelButtonTitle:@"Cancel"
-                                             otherButtonTitles:@"OK",nil];
-		[alert show];
-        
         Profile* profile = [[Profile alloc] initWithName:self.Name.text WithEmail:self.Email.text WithPassword:self.Password.text];
         DataAccess* db = [[DataAccess alloc] init];
         
-        [db setProfileBySignUpWithProfile:profile];
+        int err = [db setProfileBySignUpWithProfile:profile];
+        if (err)
+        {
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error!"
+                                                           message:@"Failed to signup."
+                                                          delegate:self
+                                                 cancelButtonTitle:nil
+                                                 otherButtonTitles:@"OK",nil];
+            [alert show];
+        }
+        else
+        {
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Success!"
+                                                           message:@"You have successfully created an account! Please log in with the login page."
+                                                          delegate:self
+                                                 cancelButtonTitle:@"Cancel"
+                                                 otherButtonTitles:@"OK",nil];
+            [alert show];
+            
+            [self performSegueWithIdentifier:@"LoginViewController" sender:sender];
+        }
 	}
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"LoginViewController"]) {
+        
+        // Get destination view
+        LoginViewController *loginViewController = [segue destinationViewController];
+                
+        [loginViewController setEmailText:self.Email.text];
+    }
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {

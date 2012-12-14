@@ -9,6 +9,7 @@
 #import "SignUpViewController.h"
 #import "CreateGroupTableViewController.h"
 #import "DataAccess.h"
+#import "ActiveProfile.h"
 
 @implementation LoginViewController
 @synthesize Label;
@@ -23,50 +24,42 @@
 	[Password resignFirstResponder];
 }
 
--(IBAction) login_OnClick: (id) sender {
-	
+-(IBAction)login_OnClick: (id)sender {
+
+    if (Password.text.length != 0 && Email.text.length == 0)
+    {
+		return;
+	}
+    
 	if (self.isValidLogin == NO)
     {
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error"
                                                        message:@"Failed to login! Please try again!"
                                                       delegate:self
-                                             cancelButtonTitle:@"Cancel"
+                                             cancelButtonTitle:nil
                                              otherButtonTitles:@"OK",nil];
         [alert show];
 	}
 	else
     {
+        [sender resignFirstResponder];
         [self performSegueWithIdentifier:@"CreateGroupTableViewController" sender:sender];
 	}
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
-	if(textField == Email) {
+	if (textField == Email)
+    {
         [Password becomeFirstResponder];
-    } else if(textField == Password) {
-        [textField resignFirstResponder];
-		[self login_OnClick:nil];
-		return YES;
     }
     return NO;
 }
 
--(BOOL)isValidLogin {
-	NSString *email = self.Email.text;
-	NSString *password = self.Password.text;
-    
-    NSLog(@"%@:%@", email, password);
-    
-	if (email.length == 0) {
-		return NO;
-	}
-
-	if (password.length == 0) {
-		return NO;
-	}
-	
+-(BOOL)isValidLogin {    
+    NSLog(@"%@:%@", self.Email.text, self.Password.text);
+    	
     DataAccess* db = [[DataAccess alloc] init];
-    Profile* profile = [db getProfileWithEmail:email WithPassword:password];
+    Profile* profile = [db getProfileWithEmail:self.Email.text];
     
     if (nil == profile)
     {
@@ -74,7 +67,18 @@
         return NO;
     }
     
+    if (![self.Password.text isEqualToString:[profile getPassword]])
+        return NO;
+
+    Profile* activeProfile = [ActiveProfile sharedInstance];
+    [activeProfile setProfileWithProfile:profile];
+    
 	return YES;
+}
+
+-(void)setEmailText:(NSString*) email
+{
+    self.Email.text = email;
 }
 
 - (void)didReceiveMemoryWarning {

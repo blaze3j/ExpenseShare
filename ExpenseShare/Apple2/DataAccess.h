@@ -16,7 +16,8 @@
     sqlite3 *mDb;
 }
 
-- (void) setProfileBySignUpWithProfile:(Profile*) profile;
-- (Profile*) getProfileWithEmail:(NSString*) email WithPassword:(NSString*) password;
+- (int) setProfileBySignUpWithProfile:(Profile*) profile;
+- (int) setProfileByGroupWithProfile:(Profile *)profile;
+- (Profile*) getProfileWithEmail:(NSString*) email;
 
 @end
