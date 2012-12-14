@@ -9,7 +9,6 @@
 #import "ProfileTableViewCell.h"
 
 @implementation ProfileTableViewCell
-@synthesize profileImage;
 @synthesize oweLabel;
 @synthesize owedLabel;
 @synthesize profile;
@@ -34,8 +33,7 @@
     
     if (profile != newProfile) {
         profile = newProfile;
-        
-        profileImage = [profileImage initWithImage:[profile getImage]];
+
         oweLabel.text = [profile getIndividualOweAsString];
         owedLabel.text = [profile getOwedAsString];
     }

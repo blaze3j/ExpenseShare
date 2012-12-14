@@ -8,6 +8,7 @@
 
 #import "Profile.h"
 #import "Event.h"
+#import "AssetsLibrary/AssetsLibrary.h"
 
 @implementation Profile
 
@@ -36,7 +37,7 @@
         mEmail = email;
         mPassword = password;
         mGroup = @"LoveLoveHouse";
-        mImagePath = @"osx.jpg";
+        mImagePath = @"addImage.jpg";
         mOwe = [NSNumber numberWithFloat:0.0];
         mOwed = [NSNumber numberWithFloat:0.0];
         mEvents = [NSMutableArray array];
@@ -72,7 +73,27 @@
 
 - (UIImage*)getImage
 {
-    return [UIImage imageNamed:mImagePath];
+    if (false == [mImagePath hasPrefix:@"assets-library"])
+    {
+        mImage = [UIImage imageNamed:mImagePath];
+    }
+    else
+    {
+        NSURL* url = [NSURL URLWithString:mImagePath];
+        
+        ALAssetsLibrary* library = [[ALAssetsLibrary alloc] init];
+        [library assetForURL:url resultBlock:^(ALAsset *asset)
+         {
+             UIImage  *copyOfOriginalImage = [UIImage imageWithCGImage:[[asset defaultRepresentation] fullResolutionImage]];
+             mImage = copyOfOriginalImage;
+         }
+                failureBlock:^(NSError *error)
+         {
+             // error handling
+         }];
+    }
+    
+    return mImage;
 }
 
 - (NSNumber*)getOwe
@@ -171,6 +192,11 @@
 - (void)setGroup:(NSString*)group
 {
     mGroup = group;
+}
+
+- (void)setImagePath:(NSString*) imagePath
+{
+    mImagePath = imagePath;
 }
 
 - (void)setOwed:(NSNumber*) owed

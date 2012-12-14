@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface EventTableViewCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UITextView *eventTextView;
 
+@property (nonatomic, weak) IBOutlet UITextView *eventTextView;
 @property (nonatomic, strong) NSArray* events;
 
 @end

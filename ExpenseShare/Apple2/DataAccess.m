@@ -44,7 +44,8 @@
                 "PASSWORD TEXT, "
                 "OWED REAL, "
                 "OWE REAL, "
-                "GROUPNAME TEXT)";
+                "GROUPNAME TEXT, "
+                "IMAGEPATH TEXT)";
                 
                 if (sqlite3_exec(mDb, sql_stmt, NULL, NULL, &errMsg) != SQLITE_OK)
                 {
@@ -61,7 +62,37 @@
     return self;
 }
 
-- (int) setProfileByGroupWithProfile:(Profile *)profile
+- (int) setProfileImagePathWithProfile:(Profile *)profile
+{
+    sqlite3_stmt *statement;
+    int err = 0;
+    const char *dbpath = [mDatabasePath UTF8String];
+    
+    if (sqlite3_open(dbpath, &mDb) == SQLITE_OK)
+    {
+        NSString *insertSQL = [NSString stringWithFormat: @"UPDATE PROFILE SET imagepath=\"%@\" WHERE email=\"%@\"", [profile getImagePath], [profile getEmail]];
+        
+        const char *insert_stmt = [insertSQL UTF8String];
+        
+        sqlite3_prepare_v2(mDb, insert_stmt, -1, &statement, NULL);
+        if (sqlite3_step(statement) == SQLITE_DONE)
+        {
+            NSLog(@"Success to sign up database");
+        } else {
+            NSLog(@"Failed to sign up database");
+        }
+        sqlite3_finalize(statement);
+        sqlite3_close(mDb);
+    }
+    else
+    {
+        NSLog(@"%s: Failed to open database", __FUNCTION__);
+    }
+    
+    return err;
+}
+
+- (int) setProfileGroupWithProfile:(Profile *)profile
 {
     sqlite3_stmt *statement;
     int err = 0;
@@ -148,6 +179,8 @@
     NSNumber *oweField = nil;
     NSString *groupField = nil;
     const char *groupText = NULL;
+    NSString *imageField = nil;
+    const char *imageText = NULL;
     int err = 0;
     Profile* profile = nil;
     
@@ -156,7 +189,7 @@
         goto OPEN_FAILURE;
     }
     
-    querySQL = [NSString stringWithFormat: @"SELECT name, password, owed, owe, groupname FROM profile WHERE email=\"%@\"", email];
+    querySQL = [NSString stringWithFormat: @"SELECT name, password, owed, owe, groupname, imagepath FROM profile WHERE email=\"%@\"", email];
     query_stmt = [querySQL UTF8String];
     
     err = sqlite3_prepare_v2(mDb, query_stmt, -1, &statement, NULL);
@@ -176,11 +209,14 @@
     oweField = [NSNumber numberWithFloat:sqlite3_column_double(statement, 3)];
     groupText = (const char *) sqlite3_column_text(statement, 4);
     groupField = (NULL == groupText) ? [[NSString alloc] initWithUTF8String:""] : [[NSString alloc] initWithUTF8String:groupText];
+    imageText = (const char *) sqlite3_column_text(statement, 5);
+    imageField = (NULL == imageText) ? [[NSString alloc] initWithUTF8String:"addImage.png"] : [[NSString alloc] initWithUTF8String:imageText];
     
     profile = [[Profile alloc] initWithName:nameField WithEmail:email WithPassword:passwordField];
     [profile setOwed:owedField];
     [profile setOwe:oweField];
     [profile setGroup:groupField];
+    [profile setImagePath:imageField];
     
 PASSWORD_FAILURE:
 DATABASE_FAILURE:

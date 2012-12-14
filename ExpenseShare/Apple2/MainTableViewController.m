@@ -9,6 +9,7 @@
 #import "MainTableViewController.h"
 #import "Event.h"
 #import "ActiveProfile.h"
+#import "DataAccess.h"
 
 @interface MainTableViewController ()
 
@@ -17,7 +18,8 @@
 @implementation MainTableViewController
 @synthesize profileCell;
 @synthesize upcomingEventCell;
-@synthesize feedCell;
+@synthesize mSelectedImage;
+@synthesize imageButton;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -39,6 +41,10 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    Profile* profile = [ActiveProfile sharedInstance];
+
+    [imageButton setImage:[profile getImage] forState:UIControlStateNormal];
+    [imageButton setBackgroundImage:[profile getImage] forState:UIControlStateNormal];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -95,6 +101,9 @@
         switch ([indexPath indexAtPosition:0])
         {
             case 0:
+                [imageButton setImage:[profile getImage] forState:UIControlStateNormal];
+                [imageButton setBackgroundImage:[profile getImage] forState:UIControlStateNormal];
+                NSLog(@"%s %@", __FUNCTION__, [profile getImagePath]);
                 [profileCell setProfile:profile];
                 cell = profileCell;
                 break;
@@ -103,22 +112,22 @@
                 cell = upcomingEventCell;
                 break;
             case 2:
-                [feedCell setFeed:@"- Derrick paid rent on 2012/09/03\n"
-                 "- Shelly added new bill on 2012/08/23\n"
-                 "- Barry paid rent on 2012/08/21\n"
-                 "- Dirk added new bill on 2012/08/19\n"
-                 "- Ian paid rent on 2012/07/30\n"
-                 "- Victor added new bill on 2012/07/27\n"
-                 "- Mitch paid rent on 2012/07/25\n"
-                 "- Jack added new bill on 2012/07/18\n"
-                 "- Rachel paid rent on 2012/07/15\n"
-                 "- Cherry added new bill on 2012/07/12\n"
-                 "- Carry paid rent on 2012/07/10\n"
-                 "- Tammy added new bill on 2012/07/08\n"
-                 "- Lin paid rent on 2012/07/02\n"
-                 "- May added new bill on 2012/06/23\n"
-                 "- Rhonda paid rent on 2012/05/02\n"];
-                cell = feedCell;
+//                [feedCell setFeed:@"- Derrick paid rent on 2012/09/03\n"
+//                 "- Shelly added new bill on 2012/08/23\n"
+//                 "- Barry paid rent on 2012/08/21\n"
+//                 "- Dirk added new bill on 2012/08/19\n"
+//                 "- Ian paid rent on 2012/07/30\n"
+//                 "- Victor added new bill on 2012/07/27\n"
+//                 "- Mitch paid rent on 2012/07/25\n"
+//                 "- Jack added new bill on 2012/07/18\n"
+//                 "- Rachel paid rent on 2012/07/15\n"
+//                 "- Cherry added new bill on 2012/07/12\n"
+//                 "- Carry paid rent on 2012/07/10\n"
+//                 "- Tammy added new bill on 2012/07/08\n"
+//                 "- Lin paid rent on 2012/07/02\n"
+//                 "- May added new bill on 2012/06/23\n"
+//                 "- Rhonda paid rent on 2012/05/02\n"];
+//                cell = feedCell;
                 break;
             default:
                 //cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
@@ -203,10 +212,49 @@
     return sectionName;
 }
 
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController*) picker
+{
+    [picker dismissModalViewControllerAnimated:YES];
+}
+
+- (void)imagePickerController:(UIImagePickerController*) picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    NSURL* url = [info objectForKey:UIImagePickerControllerReferenceURL];
+    
+    Profile* profile = [ActiveProfile sharedInstance];
+    [profile setImagePath:[url absoluteString]];
+
+    DataAccess* db = [[DataAccess alloc] init];
+    [db setProfileImagePathWithProfile:profile];
+
+    [imageButton setImage:[profile getImage] forState:UIControlStateNormal];
+    [imageButton setBackgroundImage:[profile getImage] forState:UIControlStateNormal];
+    
+    NSLog(@"%@", info);
+    [picker dismissModalViewControllerAnimated:YES];
+}
+
+-(IBAction) getImage
+{
+    mPicker = [[UIImagePickerController alloc] init];
+    mPicker.delegate = self;
+    
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        mPicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    }
+    else
+    {
+        mPicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    }
+    
+    [self presentModalViewController:mPicker animated:YES];
+}
+
 - (void)viewDidUnload {
     [self setProfileCell:nil];
     [self setUpcomingEventCell:nil];
-    [self setFeedCell:nil];
     [super viewDidUnload];
 }
 @end

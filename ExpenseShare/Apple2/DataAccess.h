@@ -17,7 +17,8 @@
 }
 
 - (int) setProfileBySignUpWithProfile:(Profile*) profile;
-- (int) setProfileByGroupWithProfile:(Profile *)profile;
+- (int) setProfileGroupWithProfile:(Profile *)profile;
+- (int) setProfileImagePathWithProfile:(Profile *)profile;
 - (Profile*) getProfileWithEmail:(NSString*) email;
 
 - (NSMutableArray*) getEventsForProfile:(Profile*) profile;

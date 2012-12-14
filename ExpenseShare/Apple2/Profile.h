@@ -19,6 +19,8 @@
     NSNumber* mOwed;
     NSMutableArray* mEvents;
     NSMutableArray* mMembers;
+    
+    UIImage* mImage;
 }
 
 - (id)initWithName:(NSString*) name WithEmail:(NSString*) email WithPassword:(NSString*) password;
@@ -40,6 +42,7 @@
 
 - (void)setProfileWithProfile:(Profile*) profile;
 - (void)setGroup:(NSString*) group;
+- (void)setImagePath:(NSString*) imagePath;
 - (void)setOwed:(NSNumber*) owed;
 - (void)setOwe:(NSNumber*) owe;
 - (void)setEvents:(NSMutableArray*) events;

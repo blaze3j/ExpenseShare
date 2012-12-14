@@ -37,7 +37,7 @@
         [profile setGroup:groupNameField.text];
         
         DataAccess* db = [[DataAccess alloc] init];
-        [db setProfileByGroupWithProfile:profile];
+        [db setProfileGroupWithProfile:profile];
     }
 }
 

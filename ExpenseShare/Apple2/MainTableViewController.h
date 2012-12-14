@@ -11,13 +11,18 @@
 #import "EventTableViewCell.h"
 #import "FeedTableViewCell.h"
 
-@interface MainTableViewController : UITableViewController
+@interface MainTableViewController : UITableViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 {
-    NSArray* mFeedList;
+    UIImagePickerController* mPicker;
+    IBOutlet UIImageView* mSelectedImage;
 }
 
 @property (strong, nonatomic) IBOutlet ProfileTableViewCell *profileCell;
 @property (strong, nonatomic) IBOutlet EventTableViewCell *upcomingEventCell;
-@property (strong, nonatomic) IBOutlet FeedTableViewCell *feedCell;
+@property (nonatomic, retain) UIImageView* mSelectedImage;
+@property (strong, nonatomic) IBOutlet UIButton *imageButton;
+
+
+- (IBAction) getImage;
 
 @end

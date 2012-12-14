@@ -11,11 +11,8 @@
 
 @interface ProfileTableViewCell : UITableViewCell
 
-@property (strong, nonatomic) IBOutlet UIImageView *profileImage;
-
 @property (nonatomic, weak) IBOutlet UILabel *oweLabel;
 @property (nonatomic, weak) IBOutlet UILabel *owedLabel;
-
 @property (nonatomic, strong) Profile *profile;
 
 @end
