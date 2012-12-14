@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226517BB1653F5BE008183CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226517BA1653F5BE008183CE /* UIKit.framework */; };
+		226517BD1653F5BE008183CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226517BC1653F5BE008183CE /* Foundation.framework */; };
+		226517BF1653F5BE008183CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226517BE1653F5BE008183CE /* CoreGraphics.framework */; };
+		226517C51653F5BE008183CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226517C31653F5BE008183CE /* InfoPlist.strings */; };
+		226517C71653F5BE008183CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226517C61653F5BE008183CE /* main.m */; };
+		226517CB1653F5BE008183CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 226517CA1653F5BE008183CE /* AppDelegate.m */; };
+		226517CE1653F5BE008183CE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226517CC1653F5BE008183CE /* MainStoryboard_iPhone.storyboard */; };
+		226517D11653F5BE008183CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226517CF1653F5BE008183CE /* MainStoryboard_iPad.storyboard */; };
+		226517D41653F5BE008183CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226517D31653F5BE008183CE /* ViewController.m */; };
+		2288C5B91655DE9800F961E6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2288C5B81655DE9800F961E6 /* MainWindow.xib */; };
+		2288C5BC1655DE9F00F961E6 /* RoomieHelperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2288C5BB1655DE9F00F961E6 /* RoomieHelperViewController.xib */; };
+		2288C5C31655DEAD00F961E6 /* RoomieHelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288C5BE1655DEAC00F961E6 /* RoomieHelperAppDelegate.m */; };
+		2288C5C41655DEAD00F961E6 /* RoomieHelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288C5C01655DEAC00F961E6 /* RoomieHelperViewController.m */; };
+		2288C5C51655DEAD00F961E6 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288C5C21655DEAD00F961E6 /* SignUpViewController.m */; };
+		2288C5C71655ED3900F961E6 /* temp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2288C5C61655ED3900F961E6 /* temp.jpg */; };
+		2288C5CD1655F5A100F961E6 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2288C5CC1655F5A000F961E6 /* SignUpViewController.xib */; };
+		22BB12971653FD9500AEA01B /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BB12961653FD9500AEA01B /* ScheduleTableViewController.m */; };
+		22BB12A816540C7200AEA01B /* ScheduleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BB12A716540C7200AEA01B /* ScheduleList.plist */; };
+		22BB12B7165413B900AEA01B /* AddSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BB12B6165413B900AEA01B /* AddSchedule.m */; };
+		22BB12BA1654369B00AEA01B /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BB12B91654369B00AEA01B /* DetailView.m */; };
+		22BDD779165570D50028052A /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDD778165570D50028052A /* EditViewController.m */; };
+		22F0D6F51654B08300D69715 /* CostDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F0D6F41654B08300D69715 /* CostDetailController.m */; };
+		22F0D6F91654BCB300D69715 /* OtherDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F0D6F81654BCB300D69715 /* OtherDetailView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020EDA9816560F73007F2E80 /* InviteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InviteViewController.h; sourceTree = "<group>"; };
+		020EDA9916560F73007F2E80 /* InviteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InviteViewController.m; sourceTree = "<group>"; };
+		020EDA9A16560F73007F2E80 /* CreateGroupTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateGroupTableViewController.h; sourceTree = "<group>"; };
+		020EDA9B16560F73007F2E80 /* CreateGroupTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateGroupTableViewController.m; sourceTree = "<group>"; };
+		226517B61653F5BE008183CE /* Apple2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apple2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226517BA1653F5BE008183CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		226517BC1653F5BE008183CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		226517BE1653F5BE008183CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		226517C21653F5BE008183CE /* Apple2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apple2-Info.plist"; sourceTree = "<group>"; };
+		226517C41653F5BE008183CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		226517C61653F5BE008183CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		226517C81653F5BE008183CE /* Apple2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apple2-Prefix.pch"; sourceTree = "<group>"; };
+		226517C91653F5BE008183CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		226517CA1653F5BE008183CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		226517CD1653F5BE008183CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		226517D01653F5BE008183CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		226517D21653F5BE008183CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		226517D31653F5BE008183CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2288C5B81655DE9800F961E6 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		2288C5BB1655DE9F00F961E6 /* RoomieHelperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomieHelperViewController.xib; sourceTree = "<group>"; };
+		2288C5BD1655DEAC00F961E6 /* RoomieHelperAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomieHelperAppDelegate.h; sourceTree = "<group>"; };
+		2288C5BE1655DEAC00F961E6 /* RoomieHelperAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomieHelperAppDelegate.m; sourceTree = "<group>"; };
+		2288C5BF1655DEAC00F961E6 /* RoomieHelperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomieHelperViewController.h; sourceTree = "<group>"; };
+		2288C5C01655DEAC00F961E6 /* RoomieHelperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomieHelperViewController.m; sourceTree = "<group>"; };
+		2288C5C11655DEAC00F961E6 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		2288C5C21655DEAD00F961E6 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		2288C5C61655ED3900F961E6 /* temp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp.jpg; sourceTree = "<group>"; };
+		2288C5CC1655F5A000F961E6 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		22BB12951653FD9500AEA01B /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
+		22BB12961653FD9500AEA01B /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		22BB12A716540C7200AEA01B /* ScheduleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ScheduleList.plist; sourceTree = "<group>"; };
+		22BB12B5165413B900AEA01B /* AddSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSchedule.h; sourceTree = "<group>"; };
+		22BB12B6165413B900AEA01B /* AddSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSchedule.m; sourceTree = "<group>"; };
+		22BB12B81654369B00AEA01B /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		22BB12B91654369B00AEA01B /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		22BDD777165570D40028052A /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		22BDD778165570D50028052A /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		22F0D6F31654B08300D69715 /* CostDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostDetailController.h; sourceTree = "<group>"; };
+		22F0D6F41654B08300D69715 /* CostDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostDetailController.m; sourceTree = "<group>"; };
+		22F0D6F71654BCB300D69715 /* OtherDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherDetailView.h; sourceTree = "<group>"; };
+		22F0D6F81654BCB300D69715 /* OtherDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherDetailView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226517B31653F5BE008183CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226517BB1653F5BE008183CE /* UIKit.framework in Frameworks */,
+				226517BD1653F5BE008183CE /* Foundation.framework in Frameworks */,
+				226517BF1653F5BE008183CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226517AB1653F5BE008183CE = {
+			isa = PBXGroup;
+			children = (
+				226517C01653F5BE008183CE /* Apple2 */,
+				226517B91653F5BE008183CE /* Frameworks */,
+				226517B71653F5BE008183CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226517B71653F5BE008183CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226517B61653F5BE008183CE /* Apple2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226517B91653F5BE008183CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226517BA1653F5BE008183CE /* UIKit.framework */,
+				226517BC1653F5BE008183CE /* Foundation.framework */,
+				226517BE1653F5BE008183CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		226517C01653F5BE008183CE /* Apple2 */ = {
+			isa = PBXGroup;
+			children = (
+				226517C91653F5BE008183CE /* AppDelegate.h */,
+				226517CA1653F5BE008183CE /* AppDelegate.m */,
+				226517CC1653F5BE008183CE /* MainStoryboard_iPhone.storyboard */,
+				2288C5BB1655DE9F00F961E6 /* RoomieHelperViewController.xib */,
+				2288C5B81655DE9800F961E6 /* MainWindow.xib */,
+				2288C5CC1655F5A000F961E6 /* SignUpViewController.xib */,
+				22BDD777165570D40028052A /* EditViewController.h */,
+				22BDD778165570D50028052A /* EditViewController.m */,
+				22F0D6F71654BCB300D69715 /* OtherDetailView.h */,
+				22F0D6F81654BCB300D69715 /* OtherDetailView.m */,
+				22F0D6F31654B08300D69715 /* CostDetailController.h */,
+				22F0D6F41654B08300D69715 /* CostDetailController.m */,
+				22BB12B81654369B00AEA01B /* DetailView.h */,
+				22BB12B91654369B00AEA01B /* DetailView.m */,
+				226517CF1653F5BE008183CE /* MainStoryboard_iPad.storyboard */,
+				22BB12B5165413B900AEA01B /* AddSchedule.h */,
+				22BB12B6165413B900AEA01B /* AddSchedule.m */,
+				22BB12951653FD9500AEA01B /* ScheduleTableViewController.h */,
+				22BB12961653FD9500AEA01B /* ScheduleTableViewController.m */,
+				226517D21653F5BE008183CE /* ViewController.h */,
+				226517D31653F5BE008183CE /* ViewController.m */,
+				2288C5BD1655DEAC00F961E6 /* RoomieHelperAppDelegate.h */,
+				2288C5BE1655DEAC00F961E6 /* RoomieHelperAppDelegate.m */,
+				2288C5BF1655DEAC00F961E6 /* RoomieHelperViewController.h */,
+				2288C5C01655DEAC00F961E6 /* RoomieHelperViewController.m */,
+				2288C5C11655DEAC00F961E6 /* SignUpViewController.h */,
+				2288C5C21655DEAD00F961E6 /* SignUpViewController.m */,
+				020EDA9816560F73007F2E80 /* InviteViewController.h */,
+				020EDA9916560F73007F2E80 /* InviteViewController.m */,
+				020EDA9A16560F73007F2E80 /* CreateGroupTableViewController.h */,
+				020EDA9B16560F73007F2E80 /* CreateGroupTableViewController.m */,
+				2288C5C61655ED3900F961E6 /* temp.jpg */,
+				226517C11653F5BE008183CE /* Supporting Files */,
+			);
+			path = Apple2;
+			sourceTree = "<group>";
+		};
+		226517C11653F5BE008183CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				226517C21653F5BE008183CE /* Apple2-Info.plist */,
+				226517C31653F5BE008183CE /* InfoPlist.strings */,
+				226517C61653F5BE008183CE /* main.m */,
+				226517C81653F5BE008183CE /* Apple2-Prefix.pch */,
+				22BB12A716540C7200AEA01B /* ScheduleList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226517B51653F5BE008183CE /* Apple2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226517D71653F5BE008183CE /* Build configuration list for PBXNativeTarget "Apple2" */;
+			buildPhases = (
+				226517B21653F5BE008183CE /* Sources */,
+				226517B31653F5BE008183CE /* Frameworks */,
+				226517B41653F5BE008183CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apple2;
+			productName = Apple2;
+			productReference = 226517B61653F5BE008183CE /* Apple2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226517AD1653F5BE008183CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 226517B01653F5BE008183CE /* Build configuration list for PBXProject "Apple2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 226517AB1653F5BE008183CE;
+			productRefGroup = 226517B71653F5BE008183CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226517B51653F5BE008183CE /* Apple2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226517B41653F5BE008183CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226517C51653F5BE008183CE /* InfoPlist.strings in Resources */,
+				226517CE1653F5BE008183CE /* MainStoryboard_iPhone.storyboard in Resources */,
+				226517D11653F5BE008183CE /* MainStoryboard_iPad.storyboard in Resources */,
+				22BB12A816540C7200AEA01B /* ScheduleList.plist in Resources */,
+				2288C5B91655DE9800F961E6 /* MainWindow.xib in Resources */,
+				2288C5BC1655DE9F00F961E6 /* RoomieHelperViewController.xib in Resources */,
+				2288C5C71655ED3900F961E6 /* temp.jpg in Resources */,
+				2288C5CD1655F5A100F961E6 /* SignUpViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226517B21653F5BE008183CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226517C71653F5BE008183CE /* main.m in Sources */,
+				226517CB1653F5BE008183CE /* AppDelegate.m in Sources */,
+				226517D41653F5BE008183CE /* ViewController.m in Sources */,
+				22BB12971653FD9500AEA01B /* ScheduleTableViewController.m in Sources */,
+				22BB12B7165413B900AEA01B /* AddSchedule.m in Sources */,
+				22BB12BA1654369B00AEA01B /* DetailView.m in Sources */,
+				22F0D6F51654B08300D69715 /* CostDetailController.m in Sources */,
+				22F0D6F91654BCB300D69715 /* OtherDetailView.m in Sources */,
+				22BDD779165570D50028052A /* EditViewController.m in Sources */,
+				2288C5C31655DEAD00F961E6 /* RoomieHelperAppDelegate.m in Sources */,
+				2288C5C41655DEAD00F961E6 /* RoomieHelperViewController.m in Sources */,
+				2288C5C51655DEAD00F961E6 /* SignUpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		226517C31653F5BE008183CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226517C41653F5BE008183CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		226517CC1653F5BE008183CE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226517CD1653F5BE008183CE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		226517CF1653F5BE008183CE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226517D01653F5BE008183CE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		226517D51653F5BE008183CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226517D61653F5BE008183CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226517D81653F5BE008183CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apple2/Apple2-Prefix.pch";
+				INFOPLIST_FILE = "Apple2/Apple2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		226517D91653F5BE008183CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apple2/Apple2-Prefix.pch";
+				INFOPLIST_FILE = "Apple2/Apple2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226517B01653F5BE008183CE /* Build configuration list for PBXProject "Apple2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226517D51653F5BE008183CE /* Debug */,
+				226517D61653F5BE008183CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226517D71653F5BE008183CE /* Build configuration list for PBXNativeTarget "Apple2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226517D81653F5BE008183CE /* Debug */,
+				226517D91653F5BE008183CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 226517AD1653F5BE008183CE /* Project object */;
+}
