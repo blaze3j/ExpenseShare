@@ -1,5 +1,5 @@
 //
-//  RoomieHelperViewController.h
+//  LoginViewController.h
 //
 //  Created by Joanne Kao on 10/29/12.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RoomieHelperViewController : UIViewController <UITextFieldDelegate>
+@interface LoginViewController : UIViewController <UITextFieldDelegate>
 {
 	
 	IBOutlet UILabel *Label;

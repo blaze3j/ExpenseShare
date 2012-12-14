@@ -59,10 +59,12 @@
     [self.txtInviteContent resignFirstResponder];
     
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Invite"
-                                                      message:[NSString stringWithFormat:@"To:\n%@\nMessage:\n%@", txtInviteEmail.text, txtInviteContent.text]
+                                                      message:[NSString stringWithFormat:@"To: %@\n%@", txtInviteEmail.text, txtInviteContent.text]
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
+    
     [message show];
-    }
+}
+
 @end

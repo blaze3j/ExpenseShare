@@ -97,23 +97,21 @@
                 cell = upcomingEventCell;
                 break;
             case 2:
-                [feedCell setFeed:@"- Derrick paid rent on 2012/06/03\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"
-                 "- Shelly added new bill on 2012/06/23\n"
-                 "- Barry paid rent on 2012/07/02\n"];
+                [feedCell setFeed:@"- Derrick paid rent on 2012/09/03\n"
+                 "- Shelly added new bill on 2012/08/23\n"
+                 "- Barry paid rent on 2012/08/21\n"
+                 "- Dirk added new bill on 2012/08/19\n"
+                 "- Ian paid rent on 2012/07/30\n"
+                 "- Victor added new bill on 2012/07/27\n"
+                 "- Mitch paid rent on 2012/07/25\n"
+                 "- Jack added new bill on 2012/07/18\n"
+                 "- Rachel paid rent on 2012/07/15\n"
+                 "- Cherry added new bill on 2012/07/12\n"
+                 "- Carry paid rent on 2012/07/10\n"
+                 "- Tammy added new bill on 2012/07/08\n"
+                 "- Lin paid rent on 2012/07/02\n"
+                 "- May added new bill on 2012/06/23\n"
+                 "- Rhonda paid rent on 2012/05/02\n"];
                 cell = feedCell;
                 break;
             default:

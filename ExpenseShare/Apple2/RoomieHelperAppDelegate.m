@@ -5,7 +5,7 @@
 //
 
 #import "RoomieHelperAppDelegate.h"
-#import "RoomieHelperViewController.h"
+#import "LoginViewController.h"
 #import "SignUpViewController.h"
 
 @implementation RoomieHelperAppDelegate

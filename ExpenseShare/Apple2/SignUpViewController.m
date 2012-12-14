@@ -7,7 +7,9 @@
 //
 
 #import "SignUpViewController.h"
-#import "RoomieHelperViewController.h"
+#import "LoginViewController.h"
+#import "DataAccess.h"
+#import "Profile.h"
 
 @implementation SignUpViewController
 @synthesize SignUpButton;
@@ -30,24 +32,27 @@
 }
 
 -(IBAction) signUp_OnClick: (id) sender {
-	UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Success!"
-												   message: @"You have successfully created an account! Please log in with the login page."
-												  delegate: self
-										 cancelButtonTitle:@"Cancel"
-										 otherButtonTitles:@"OK",nil];
 	
-	if (self.isValidSignUp){
+	if (self.isValidSignUp)
+    {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Success!"
+                                                       message:@"You have successfully created an account! Please log in with the login page."
+                                                      delegate:self
+                                             cancelButtonTitle:@"Cancel"
+                                             otherButtonTitles:@"OK",nil];
 		[alert show];
-//		[alert release];
+        
+        Profile* profile = [[Profile alloc] initWithName:self.Name.text WithEmail:self.Email.text WithPassword:self.Password.text];
+        DataAccess* db = [[DataAccess alloc] init];
+        
+        [db setProfileBySignUpWithProfile:profile];
 	}
-	
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
 	if(textField == Name) {
         [Email becomeFirstResponder];
-		
-    } 
+    }
 	else if(textField == Email) {
         [Re_Email becomeFirstResponder];			
 	}
@@ -66,43 +71,43 @@
 }
 
 -(BOOL)isValidSignUp{
-	UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Error"
-												   message: @"Invalid sign up info! Please try again!"
-												  delegate: self
+	UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error"
+												   message:@"Invalid sign up info! Please try again!"
+												  delegate:self
 										 cancelButtonTitle:@"Cancel"
 										 otherButtonTitles:@"OK",nil];
 	
 	NSString *newMessage;
 	if (self.Email.text.length == 0) {
-		newMessage = [NSString stringWithString:@"Sorry, the email listed is invalid."];
+		newMessage = @"Sorry, the email listed is invalid.";
 		[alert setMessage:newMessage];
 		[alert show];
 //		[alert release];
 		return FALSE;
 	}
 	else if (self.Password.text.length == 0 ) {
-		newMessage = [NSString stringWithString:@"Sorry, your password is too short."];
+		newMessage = @"Sorry, your password is too short.";
 		[alert setMessage:newMessage];
 		[alert show];
 //		[alert release];
 		return FALSE;
 	}
 	else if (![self.Email.text isEqualToString: self.Re_Email.text]) {
-		newMessage = [NSString stringWithString:@"Sorry, your emails do not match."];
+		newMessage = @"Sorry, your emails do not match.";
 		[alert setMessage:newMessage];
 		[alert show];
 //		[alert release];
 		return FALSE;
 	}
 	else if (![self.Password.text isEqualToString: self.Re_Password.text]) {
-		newMessage = [NSString stringWithString:@"Sorry, your passwords do not match."];
+		newMessage = @"Sorry, your passwords do not match.";
 		[alert setMessage:newMessage];
 		[alert show];
 //		[alert release];
 		return FALSE;
 	}
 	else if (self.Name.text.length == 0) {
-		newMessage = [NSString stringWithString:@"Sorry, your name is too short."];
+		newMessage = @"Sorry, your name is too short.";
 		[alert setMessage:newMessage];
 		[alert show];
 //		[alert release];
@@ -114,7 +119,7 @@
 
 -(IBAction)cancel_OnClick: (id) sender {
 	
-	RoomieHelperViewController  *logIn_Screen = [[RoomieHelperViewController alloc] initWithNibName:@"RoomieHelperViewController" bundle:[NSBundle mainBundle]];	
+	LoginViewController *logIn_Screen = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];	
 	[[self view] addSubview:logIn_Screen.view];
 }
 
@@ -128,9 +133,14 @@
 
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
+    self.SignUpButton = nil;
+    self.Name = nil;
+    self.Email = nil;
+    self.Re_Email = nil;
+    self.Password = nil;
+    self.Re_Password = nil;
+    self.Cancel = nil;
 }
-
 
 - (void)dealloc {
 //    [super dealloc];

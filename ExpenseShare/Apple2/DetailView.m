@@ -249,7 +249,7 @@
 {
     if (label != nil && self.choice != label) {
         self.choice = label;
-        NSLog(label);
+        NSLog(@"%@", [label description]);
         [self.choicesList insertObject:label atIndex:([self.choicesList count]-1)];
   
     }else{

@@ -16,7 +16,7 @@
 
     self.scheduleList = [[NSMutableArray alloc] init];
     //self.scheduleList = [[NSMutableArray alloc] initWithObjects:@"Water", @"Electricity",nil];
-    NSString* path = [[NSBundle mainBundle] pathForResource:@"ScheduleList" ofType:@"plist"];
+//    NSString* path = [[NSBundle mainBundle] pathForResource:@"ScheduleList" ofType:@"plist"];
 //    self.scheduleList = [[NSMutableArray alloc] initWithContentsOfFile:path];
 /*    if (self.scheduleList ==nil ) {
         NSLog(@"No..");

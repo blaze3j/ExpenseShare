@@ -16,6 +16,8 @@
     if (self)
     {
         mName = @"Jenny";
+        mEmail = @"Jenny@gmail.com";
+        mPassword = @"jennypass";
         mGroup = @"LoveLoveHouse";
         mImagePath = @"osx.jpg";
         mOwe = [NSNumber numberWithFloat:10.0];
@@ -24,9 +26,35 @@
     return self;
 }
 
+- (id)initWithName:(NSString*) name WithEmail:(NSString*) email WithPassword:(NSString*) password
+{
+    self = [super init];
+    if (self)
+    {
+        mName = name;
+        mEmail = email;
+        mPassword = password;
+        mGroup = @"LoveLoveHouse";
+        mImagePath = @"osx.jpg";
+        mOwe = [NSNumber numberWithFloat:0.0];
+        mOwed = [NSNumber numberWithFloat:0.0];
+    }
+    return self;
+}
+
 - (NSString*)getName
 {
     return mName;
+}
+
+- (NSString*)getEmail
+{
+    return mEmail;
+}
+
+- (NSString*)getPassword
+{
+    return mPassword;
 }
 
 - (NSString*)getGroup

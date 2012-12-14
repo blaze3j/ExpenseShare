@@ -150,7 +150,7 @@
         <!--Create Group Table View Controller - Create Group-->
         <scene sceneID="nWz-cm-VvB">
             <objects>
-                <tableViewController id="Qt8-kc-CoZ" customClass="CreateGroupTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="CreateGroupTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qt8-kc-CoZ" customClass="CreateGroupTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="yX6-7H-1Jv">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,10 +406,10 @@ Jenny.
             </objects>
             <point key="canvasLocation" x="-1846" y="187"/>
         </scene>
-        <!--Roomie Helper View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="Mvy-jL-ZRJ">
             <objects>
-                <viewController storyboardIdentifier="mainxib" id="Wjf-Xg-iPA" customClass="RoomieHelperViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="Wjf-Xg-iPA" customClass="LoginViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H4t-Le-emG">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -470,7 +470,7 @@ Jenny.
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qt8-kc-CoZ" kind="push" id="xyC-PW-TnC"/>
+                                    <action selector="login_OnClick:" destination="Wjf-Xg-iPA" eventType="touchUpInside" id="CX9-8P-4q4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="App" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="BnH-7x-zV2">
@@ -494,6 +494,7 @@ Jenny.
                     <connections>
                         <outlet property="Email" destination="rlc-Ij-Mog" id="GfS-gc-5BQ"/>
                         <outlet property="Password" destination="TFc-RS-jKv" id="TUx-71-Yak"/>
+                        <segue destination="Qt8-kc-CoZ" kind="push" identifier="CreateGroupTableViewController" id="Glz-KD-h0V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRf-HM-v8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -532,7 +533,7 @@ Jenny.
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="PWm-eq-3NP">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="PWm-eq-3NP">
                                 <rect key="frame" x="30" y="104" width="260" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -1209,6 +1210,17 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 <relationship kind="outlet" name="txtInviteEmail" candidateClass="UITextField"/>
             </relationships>
         </class>
+        <class className="LoginViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="login_OnClick:"/>
+                <relationship kind="outlet" name="Button" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="Email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="Password" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="SignUp_Button" candidateClass="UIButton"/>
+            </relationships>
+        </class>
         <class className="MainTableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainTableViewController.h"/>
             <relationships>
@@ -1221,7 +1233,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <source key="sourceIdentifier" type="project" relativePath="./Classes/OtherDetailView.h"/>
             <relationships>
                 <relationship kind="action" name="done:"/>
-                <relationship kind="action" name="textFieldFinished:"/>
                 <relationship kind="outlet" name="label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
@@ -1232,17 +1243,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 <relationship kind="outlet" name="oweLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="owedLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="profileImage" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="RoomieHelperViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RoomieHelperViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="login_OnClick:"/>
-                <relationship kind="outlet" name="Button" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="Email" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Password" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="SignUp_Button" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="ScheduleTableViewController" superclassName="UIViewController">
@@ -1272,7 +1272,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="V1V-hP-9x9"/>
         <segue reference="10k-y9-l1I"/>
-        <segue reference="sNo-11-3oe"/>
     </inferredMetricsTieBreakers>
 </document>

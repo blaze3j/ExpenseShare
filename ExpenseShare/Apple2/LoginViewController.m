@@ -5,10 +5,12 @@
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "RoomieHelperViewController.h"
+#import "LoginViewController.h"
 #import "SignUpViewController.h"
+#import "CreateGroupTableViewController.h"
+#import "DataAccess.h"
 
-@implementation RoomieHelperViewController
+@implementation LoginViewController
 @synthesize Label;
 @synthesize Button;
 @synthesize Email;
@@ -22,19 +24,19 @@
 }
 
 -(IBAction) login_OnClick: (id) sender {
-	UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Error"
-												   message: @"Email address is invalid! Please try again!"
-												  delegate: self
-										 cancelButtonTitle:@"Cancel"
-										 otherButtonTitles:@"OK",nil];
 	
-	if (self.isValidLogin == FALSE){
-		[alert show];
-//		[alert release];
+	if (self.isValidLogin == NO)
+    {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error"
+                                                       message:@"Failed to login! Please try again!"
+                                                      delegate:self
+                                             cancelButtonTitle:@"Cancel"
+                                             otherButtonTitles:@"OK",nil];
+        [alert show];
 	}
-	
-	else {
-		Label.text = self.Email.text;
+	else
+    {
+        [self performSegueWithIdentifier:@"CreateGroupTableViewController" sender:sender];
 	}
 }
 
@@ -49,13 +51,30 @@
     return NO;
 }
 
--(BOOL)isValidLogin{
-	NSString *text = self.Email.text;
-	if (text.length == 0) {
-		return FALSE;
+-(BOOL)isValidLogin {
+	NSString *email = self.Email.text;
+	NSString *password = self.Password.text;
+    
+    NSLog(@"%@:%@", email, password);
+    
+	if (email.length == 0) {
+		return NO;
+	}
+
+	if (password.length == 0) {
+		return NO;
 	}
 	
-	return TRUE;
+    DataAccess* db = [[DataAccess alloc] init];
+    Profile* profile = [db getProfileWithEmail:email WithPassword:password];
+    
+    if (nil == profile)
+    {
+        NSLog(@"%s: profile not found.", __FILE__);
+        return NO;
+    }
+    
+	return YES;
 }
 
 - (void)didReceiveMemoryWarning {

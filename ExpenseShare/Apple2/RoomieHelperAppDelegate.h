@@ -5,17 +5,17 @@
 
 #import <UIKit/UIKit.h>
 
-@class RoomieHelperViewController;
+@class LoginViewController;
 @class SignUpViewController;
 
 @interface RoomieHelperAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    RoomieHelperViewController *viewController;
+    LoginViewController *viewController;
 	SignUpViewController *su_viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet RoomieHelperViewController *viewController;
+@property (nonatomic, retain) IBOutlet LoginViewController *viewController;
 @property (nonatomic, retain) IBOutlet SignUpViewController *su_viewController;
 
 @end
