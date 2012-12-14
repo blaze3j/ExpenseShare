@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90BD3851655C5C7008D4CC5 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90BD3841655C5C7008D4CC5 /* ScheduleViewController.m */; };
 		B9564379164C7A1E0045DF92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9564378164C7A1E0045DF92 /* UIKit.framework */; };
 		B956437B164C7A1E0045DF92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B956437A164C7A1E0045DF92 /* Foundation.framework */; };
 		B956437D164C7A1E0045DF92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B956437C164C7A1E0045DF92 /* CoreGraphics.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90BD3831655C5C7008D4CC5 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		B90BD3841655C5C7008D4CC5 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		B9564374164C7A1E0045DF92 /* ExpenseShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9564378164C7A1E0045DF92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B956437A164C7A1E0045DF92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +145,8 @@
 				B956439E164C7A1E0045DF92 /* GroupViewController.m */,
 				B95643A0164C7A1E0045DF92 /* second.png */,
 				B95643A2164C7A1E0045DF92 /* second@2x.png */,
+				B90BD3831655C5C7008D4CC5 /* ScheduleViewController.h */,
+				B90BD3841655C5C7008D4CC5 /* ScheduleViewController.m */,
 				B956437F164C7A1E0045DF92 /* Supporting Files */,
 			);
 			path = ExpenseShare;
@@ -299,6 +304,7 @@
 				B9564389164C7A1E0045DF92 /* AppDelegate.m in Sources */,
 				B9564398164C7A1E0045DF92 /* HomeViewController.m in Sources */,
 				B956439F164C7A1E0045DF92 /* GroupViewController.m in Sources */,
+				B90BD3851655C5C7008D4CC5 /* ScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

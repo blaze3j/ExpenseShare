@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
+@property (nonatomic, retain) IBOutlet UIImageView *UserImage;
+@property (nonatomic, retain) IBOutlet UILabel *OweValue;
+@property (nonatomic, retain) IBOutlet UILabel *OwedValue;
 
 @end
