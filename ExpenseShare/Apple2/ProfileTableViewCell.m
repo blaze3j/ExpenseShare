@@ -30,13 +30,9 @@
 }
 
 - (void)setProfile:(Profile*)newProfile {
-    
-    if (profile != newProfile) {
-        profile = newProfile;
-
-        oweLabel.text = [profile getIndividualOweAsString];
-        owedLabel.text = [profile getOwedAsString];
-    }
+    profile = newProfile;
+    oweLabel.text = [profile getIndividualOweAsString];
+    owedLabel.text = [profile getOwedAsString];
 }
 
 @end

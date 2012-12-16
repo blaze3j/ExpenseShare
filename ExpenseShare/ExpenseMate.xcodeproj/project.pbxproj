@@ -44,7 +44,6 @@
 		B9A427CE16624E700020EE93 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A427CD16624E700020EE93 /* Profile.m */; };
 		B9FF999F167A9F700060967D /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FF999E167A9F700060967D /* Member.m */; };
 		B9FF99B9167B2A150060967D /* addImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B9FF99B8167B2A150060967D /* addImage.png */; };
-		B9FF99BD167B33610060967D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FF99BA167B334A0060967D /* AssetsLibrary.framework */; };
 		B9FF99BF167B33D20060967D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FF99BE167B33D20060967D /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
@@ -111,7 +110,6 @@
 		B9FF999D167A9F700060967D /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
 		B9FF999E167A9F700060967D /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 		B9FF99B8167B2A150060967D /* addImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addImage.png; sourceTree = "<group>"; };
-		B9FF99BA167B334A0060967D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		B9FF99BE167B33D20060967D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -121,7 +119,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B929FE3C166A02BE009FF28D /* libsqlite3.dylib in Frameworks */,
-				B9FF99BD167B33610060967D /* AssetsLibrary.framework in Frameworks */,
 				226517BB1653F5BE008183CE /* UIKit.framework in Frameworks */,
 				226517BD1653F5BE008183CE /* Foundation.framework in Frameworks */,
 				226517BF1653F5BE008183CE /* CoreGraphics.framework in Frameworks */,
@@ -135,7 +132,6 @@
 		226517AB1653F5BE008183CE = {
 			isa = PBXGroup;
 			children = (
-				B9FF99BA167B334A0060967D /* AssetsLibrary.framework */,
 				226517C01653F5BE008183CE /* Apple2 */,
 				226517B91653F5BE008183CE /* Frameworks */,
 				226517B71653F5BE008183CE /* Products */,
