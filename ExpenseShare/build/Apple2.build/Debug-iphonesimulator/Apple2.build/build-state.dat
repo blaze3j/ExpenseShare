@@ -1,0 +1,930 @@
+TApple2
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Info.plist Apple2/Apple2-Info.plist
+cProcessPCH /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.pth Apple2/Apple2-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2 normal i386
+cGenerateDSYMFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app.dSYM /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2
+cCopyPlistFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/ScheduleList.plist Apple2/ScheduleList.plist
+cCopyStringsFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/en.lproj/InfoPlist.strings Apple2/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileXIB /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainWindow.xib
+cCpResource Apple2/temp.jpg build/Debug-iphonesimulator/Apple2.app/temp.jpg
+cCompileXIB /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.xib
+cCompileXIB /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.xib
+cCpResource Apple2/osx.jpg build/Debug-iphonesimulator/Apple2.app/osx.jpg
+cCpResource Apple2/Default-568h@2x.png build/Debug-iphonesimulator/Apple2.app/Default-568h@2x.png
+cCpResource Apple2/addImage.png build/Debug-iphonesimulator/Apple2.app/addImage.png
+cTouch /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000505F78CF00000000000225D0
+t1348434127
+s140752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505F78D00000000000228FD0
+t1348434128
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505F78D100000000003DCEF0
+t1348434129
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505F78D60000000000AB3D60
+t1348434134
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/lib/libsqlite3.dylib
+c00000000505F78E300000000000D1F20
+t1348434147
+s859936
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m
+c0000000050BBCE7F000000000000022A
+t1354485375
+s554
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m
+c0000000050C777850000000000001885
+t1355249541
+s6277
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m
+c0000000050A3BE3E0000000000000842
+t1352908350
+s2114
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Apple2-Prefix.pch
+c0000000050A3BE3E000000000000013B
+t1352908350
+s315
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m
+c0000000050A4847F00000000000005F4
+t1352959103
+s1524
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.m
+c0000000050CB78AD0000000000001C3C
+t1355511981
+s7228
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m
+c0000000050CAF69D0000000000004051
+t1355478685
+s16465
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Default-568h@2x.png
+c000000005049BB1000000000000048A2
+t1347009296
+s18594
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.m
+c0000000050CA67700000000000002457
+t1355442032
+s9303
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m
+c0000000050C7F7650000000000001B9E
+t1355282277
+s7070
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.m
+c0000000050CAB67B0000000000000606
+t1355462267
+s1542
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m
+c0000000050CAE22000000000000004BD
+t1355473440
+s1213
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m
+c0000000050B5176800000000000002EB
+t1354045288
+s747
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.m
+c0000000050C764640000000000000841
+t1355244644
+s2113
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m
+c0000000050CA9ADC0000000000000ADC
+t1355455196
+s2780
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.xib
+c0000000050B9F0F60000000000006981
+t1354363126
+s27009
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.m
+c0000000050CB78600000000000001F37
+t1355511904
+s7991
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainWindow.xib
+c0000000050B9F0F60000000000004785
+t1354363126
+s18309
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m
+c0000000050CA9EBB0000000000000217
+t1355456187
+s535
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.m
+c0000000050CABA460000000000000944
+t1355463238
+s2372
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m
+c0000000050CB77AF00000000000011AF
+t1355511727
+s4527
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m
+c0000000050CB03D60000000000000362
+t1355482070
+s866
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.m
+c0000000050B9F0FA0000000000000B0F
+t1354363130
+s2831
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleList.plist
+c0000000050A3D5AD000000000000010C
+t1352914349
+s268
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m
+c0000000050CAB8AD0000000000001CEA
+t1355462829
+s7402
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.m
+c0000000050CA9D8A0000000000001359
+t1355455882
+s4953
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.xib
+c0000000050A4A669000000000000D54C
+t1352967785
+s54604
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.m
+c0000000050A3BE3E0000000000000524
+t1352908350
+s1316
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/addImage.png
+c0000000050CAF27300000000000026EB
+t1355477619
+s9963
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/InfoPlist.strings
+c0000000050A3BE3E000000000000002D
+t1352908350
+s45
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/MainStoryboard_iPhone.storyboard
+c0000000050CD5483000000000001982F
+t1355633795
+s104495
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m
+c0000000050B0B7A10000000000000155
+t1353758625
+s341
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/osx.jpg
+c0000000050B460EE0000000000001D48
+t1353998574
+s7496
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/temp.jpg
+c0000000050A3BB9B0000000000033C5E
+t1352907675
+s212062
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Apple2.LinkFileList
+c0000000050CD55210000000000000EFA
+t1355633953
+s3834
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app.dSYM
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Info.plist
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/LoginViewController.nib
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/MainWindow.nib
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/PkgInfo
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/ScheduleList.plist
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/SignUpViewController.nib
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/addImage.png
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/osx.jpg
+t2
+s0
+
+N/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/temp.jpg
+t2
+s0
+
+N/var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.pth
+t2
+s0
+
+NApple2/Apple2-Info.plist
+c0000000050A3BE3E0000000000000669
+t1352908350
+s1641
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.m
+r0
+
+CBuild AST from /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbfd299a08c7db641^9a071ca18c7db641^---0#1#0#--18"Check dependencies36"9EC637C1-8A94-4EF0-9EA3-AD39A406EFDE-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326754.130061
+e377326754.181036
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m307f21a28c7db641^cf652ea28c7db641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m0000000000000000^3938"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.o Apple2/ActiveProfile.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ActiveProfile.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ActiveProfile.o36"461EC5EB-E502-4A6F-8568-349F5ACCC614-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.724080
+e377326753.879217
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m9a99b9a18c7db641^c72ae1a18c7db641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m0000000000000000^3926"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.o Apple2/AddSchedule.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AddSchedule.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AddSchedule.o36"68947A3E-00A2-4CB4-8045-F9ED184B29FB-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.565801
+e377326753.729261
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m1b1091a18c7db641^c9b0baa18c7db641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m0000000000000000^3926"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.o Apple2/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/AppDelegate.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/AppDelegate.o36"EAC191B1-D12B-475C-895E-7281633462A7-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.738360
+e377326753.844039
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m8b38bda18c7db641^2d24d8a18c7db641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m0000000000000000^3980"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.o Apple2/CostDetailController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CostDetailController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CostDetailController.o36"24AD47FF-6B8E-44F1-88A1-F198177D65CE-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.535273
+e377326753.722843
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.mf23f89a18c7db641^662db9a18c7db641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.m0000000000000000^4040"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.o Apple2/CreateGroupTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/CreateGroupTableViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/CreateGroupTableViewController.o36"C1767ABF-7727-4763-B10F-F449746BC61F-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326754.084666
+e377326754.188845
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m58e215a28c7db641^f35730a28c7db641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m0000000000000000^3920"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.o Apple2/DataAccess.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DataAccess.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DataAccess.o36"B6173B33-0CDF-44A8-9955-3EB4DF211EFA-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.439375
+e377326753.564369
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.mffb170a18c7db641^ee7b90a18c7db641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.m0000000000000000^3920"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.o Apple2/DetailView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/DetailView.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/DetailView.o36"F2D03B05-6356-460C-87A1-B02A3546FB65-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.793569
+e377326753.940485
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m965acba18c7db641^0ccef0a18c7db641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m0000000000000000^3968"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.o Apple2/EditViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EditViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EditViewController.o36"0E36DD1C-B1CF-49CD-B4AC-CF031F051DF6-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.942163
+e377326754.014702
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.me162f1a18c7db641^7dd003a28c7db641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.m0000000000000000^3890"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.o Apple2/Event.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Event.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Event.o36"E675E7E4-1C38-4853-88C5-6D4424200618-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.890835
+e377326754.025999
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m3a40e4a18c7db641^4fad06a28c7db641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m0000000000000000^3968"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.o Apple2/EventTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/EventTableViewCell.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/EventTableViewCell.o36"8CBBA8CC-E520-48DB-8700-4F4D2AD9688C-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326754.015963
+e377326754.128374
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m744604a28c7db641^81e920a28c7db641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m0000000000000000^3962"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.o Apple2/FeedTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/FeedTableViewCell.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/FeedTableViewCell.o36"A5B20E2C-081C-49BA-A3E4-03202E93187B-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326754.022522
+e377326754.156067
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.ma5f305a28c7db641^600128a28c7db641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.m0000000000000000^3980"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.o Apple2/InviteViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/InviteViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/InviteViewController.o36"63F7B700-83EB-4D20-ADE6-15AD451D2220-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326754.027223
+e377326754.183066
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m462707a28c7db641^47e52ea28c7db641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m0000000000000000^3974"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.o Apple2/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/LoginViewController.o36"6091914F-093F-4C68-9F4A-FBAE688C45DC-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.439392
+e377326753.568951
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.mfbae70a18c7db641^88b891a18c7db641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.m0000000000000000^3998"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.o Apple2/MainTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainTableViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/MainTableViewController.o36"6150C9F8-FFB9-4528-B84B-9EE7A4AFF509-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326754.157435
+e377326754.195299
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m0f8028a28c7db641^93ff31a28c7db641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m0000000000000000^3896"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.o Apple2/Member.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Member.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Member.o36"F97A6424-F7FE-4400-827B-23BA8A18049C-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.759339
+e377326753.889538
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.mb396c2a18c7db641^8fc4e3a18c7db641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.m0000000000000000^3950"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.o Apple2/OtherDetailView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/OtherDetailView.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/OtherDetailView.o36"4CB3E3DF-6F5E-4FF1-8DCF-7077F42A5DCE-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.439402
+e377326753.533932
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m61c270a18c7db641^78d088a18c7db641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m0000000000000000^3902"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.o Apple2/Profile.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Profile.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Profile.o36"1C398527-61CC-4803-8D09-995D52F5ECE8-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.880473
+e377326754.021163
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m9a99e1a18c7db641^817c05a28c7db641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m0000000000000000^3980"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.o Apple2/ProfileTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ProfileTableViewCell.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ProfileTableViewCell.o36"8872E6D1-2AC1-488B-957F-C9E1F302A8AC-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.438055
+e377326753.560000
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.ma4a770a18c7db641^5d6f8fa18c7db641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.m0000000000000000^3998"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.o Apple2/RoomieHelperAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/RoomieHelperAppDelegate.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/RoomieHelperAppDelegate.o36"13CAE365-40F0-42F5-8D36-2F451A57CA7E-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.647559
+e377326753.792184
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m5a9ba6a18c7db641^e7c3cba18c7db641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m0000000000000000^4022"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.o Apple2/ScheduleTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleTableViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ScheduleTableViewController.o36"A9693ED9-98B9-405D-B2A9-3028EC4367D4-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.845276
+e377326754.083419
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.md498d8a18c7db641^147615a28c7db641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.m0000000000000000^3980"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.o Apple2/SignUpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/SignUpViewController.o36"452B4631-390C-4A05-8DC5-356226070B83-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.570290
+e377326753.757968
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.mb53592a18c7db641^0343c2a18c7db641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.m0000000000000000^3944"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.o Apple2/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ViewController.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/ViewController.o36"AEE9D6B6-D1E1-4E1F-BB8C-A018BAD6250C-
+
+CCompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.561376
+e377326753.603014
+r1
+xCompileC
+xbuild/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.o
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m2a5390a18c7db641^55149ba18c7db641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m0000000000000000^3884"CompileC build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.o Apple2/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -include /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch -MMD -MT dependencies -MF /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/main.m -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/main.o36"41DA0561-E1B4-45E3-81CD-7DBFAD5703CB-
+
+CCompileStoryboard /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/MainStoryboard_iPhone.storyboard
+s377326754.401291
+e377326757.099716
+r1
+xCompileStoryboard
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/MainStoryboard_iPhone.storyboard
+o2012-12-15 20:59:15.821 ibtoold[32153:707] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilderCocoaTouch/IDEInterfaceBuilderCocoaTouch-1926/IBPlugin/Documents/IBStoryboardMetricsInferrer.m:316
+oDetails:  Failed to push inherited simulated metrics to all scenes.
+oObject:   <IBStoryboardMetricsInferrer: 0x400d7d4c0>
+oMethod:   -rebuildInferredMetrics
+oThread:   <NSThread: 0x40030a260>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+o2012-12-15 20:59:16.150 ibtoold[32153:707] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilderCocoaTouch/IDEInterfaceBuilderCocoaTouch-1926/IBPlugin/Documents/IBStoryboardMetricsInferrer.m:316
+oDetails:  Failed to push inherited simulated metrics to all scenes.
+oObject:   <IBStoryboardMetricsInferrer: 0x401250ca0>
+oMethod:   -rebuildInferredMetrics
+oThread:   <NSThread: 0x40030a260>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard Apple2/en.lproj/MainStoryboard_iPhone.storyboarde7df66a28c7db641^469519a58c7db641^-1060"2012-12-15 20:59:15.821 ibtoold[32153:707] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilderCocoaTouch/IDEInterfaceBuilderCocoaTouch-1926/IBPlugin/Documents/IBStoryboardMetricsInferrer.m:316Details:  Failed to push inherited simulated metrics to all scenes.Object:   <IBStoryboardMetricsInferrer: 0x400d7d4c0>Method:   -rebuildInferredMetricsThread:   <NSThread: 0x40030a260>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.2012-12-15 20:59:16.150 ibtoold[32153:707] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilderCocoaTouch/IDEInterfaceBuilderCocoaTouch-1926/IBPlugin/Documents/IBStoryboardMetricsInferrer.m:316Details:  Failed to push inherited simulated metrics to all scenes.Object:   <IBStoryboardMetricsInferrer: 0x401250ca0>Method:   -rebuildInferredMetricsThread:   <NSThread: 0x40030a260>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.-0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1067"CompileStoryboard Apple2/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"897C0854-407E-491C-A5FE-2CE60F01689E-
+
+CCompileXIB /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.xib
+s377326754.405472
+e377326755.686183
+r1
+xCompileXIB
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compiling /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.xibbde467a28c7db641^e509b0a38c7db641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.xib0000000000000000^1004"CompileXIB Apple2/LoginViewController.xib    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/LoginViewController.nib /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/LoginViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"A1D40E0F-98F7-4E65-9317-EAFE91B78B39-
+
+CCompileXIB /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainWindow.xib
+s377326754.401498
+e377326754.439972
+r1
+xCompileXIB
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compiling /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainWindow.xib2ae466a28c7db641^97ae70a28c7db641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainWindow.xib0000000000000000^977"CompileXIB Apple2/MainWindow.xib    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/MainWindow.nib /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"8CC568EA-56E0-407D-BF0E-75801665A295-
+
+CCompileXIB /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.xib
+s377326754.411819
+e377326755.754126
+r1
+xCompileXIB
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compiling /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.xibbe8969a28c7db641^880ec1a38c7db641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.xib0000000000000000^1007"CompileXIB Apple2/SignUpViewController.xib    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/SignUpViewController.nib /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/SignUpViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"4EAEFCB9-7890-498A-8EBA-22E92C807137-
+
+CCopyPlistFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/ScheduleList.plist Apple2/ScheduleList.plist
+s377326754.401282
+e377326754.404879
+r1
+xCopyPlistFile
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/ScheduleList.plist
+xApple2/ScheduleList.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy Apple2/ScheduleList.plist12da66a28c7db641^8ba667a28c7db641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/ScheduleList.plist0000000000000000^565"CopyPlistFile build/Debug-iphonesimulator/Apple2.app/ScheduleList.plist Apple2/ScheduleList.plist    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app -- Apple2/ScheduleList.plist36"3A25CB7D-A5E3-451E-AE35-2164A2D58D6F-
+
+CCopyStringsFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/en.lproj/InfoPlist.strings Apple2/en.lproj/InfoPlist.strings
+s377326754.401288
+e377326754.404188
+r1
+xCopyStringsFile
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/en.lproj/InfoPlist.strings
+xApple2/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy Apple2/en.lproj/InfoPlist.strings13d666a28c7db641^317967a28c7db641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/en.lproj/InfoPlist.strings0000000000000000^641"CopyStringsFile build/Debug-iphonesimulator/Apple2.app/en.lproj/InfoPlist.strings Apple2/en.lproj/InfoPlist.strings    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/en.lproj -- Apple2/en.lproj/InfoPlist.strings36"A5296226-4972-4349-B6B4-F4DD62AB991E-
+
+CCpResource Apple2/Default-568h@2x.png build/Debug-iphonesimulator/Apple2.app/Default-568h@2x.png
+s377326754.458764
+e377326754.473153
+r1
+xCpResource
+xApple2/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/Apple2.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Apple2.app/Default-568h@2x.pngb98e75a28c7db641^593079a28c7db641^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Default-568h@2x.png000000000080d041^705"CpResource "Apple2/Default-568h@2x.png" "build/Debug-iphonesimulator/Apple2.app/Default-568h@2x.png"    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Default-568h@2x.png" /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app36"DA4380BC-A83E-4ED6-B734-5F07A4C7E26E-
+
+CCpResource Apple2/addImage.png build/Debug-iphonesimulator/Apple2.app/addImage.png
+s377326754.476957
+e377326754.479553
+r1
+xCpResource
+xApple2/addImage.png
+xbuild/Debug-iphonesimulator/Apple2.app/addImage.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Apple2.app/addImage.png87347aa28c7db641^4eef7aa28c7db641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/addImage.png000000000080d041^678"CpResource Apple2/addImage.png build/Debug-iphonesimulator/Apple2.app/addImage.png    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/addImage.png /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app36"E22C029F-C189-40EE-8383-B5C87DB37FD3-
+
+CCpResource Apple2/osx.jpg build/Debug-iphonesimulator/Apple2.app/osx.jpg
+s377326754.446619
+e377326754.450660
+r1
+xCpResource
+xApple2/osx.jpg
+xbuild/Debug-iphonesimulator/Apple2.app/osx.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Debug-iphonesimulator/Apple2.app/osx.jpga87272a28c7db641^5b7b73a28c7db641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/osx.jpg000000000080d041^663"CpResource Apple2/osx.jpg build/Debug-iphonesimulator/Apple2.app/osx.jpg    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/osx.jpg /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app36"B0746023-39C8-4F3E-A349-BF1953CA0BA9-
+
+CCpResource Apple2/temp.jpg build/Debug-iphonesimulator/Apple2.app/temp.jpg
+s377326754.405447
+e377326754.410532
+r1
+xCpResource
+xApple2/temp.jpg
+xbuild/Debug-iphonesimulator/Apple2.app/temp.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphonesimulator/Apple2.app/temp.jpg4ce367a28c7db641^d42769a28c7db641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/temp.jpg000000000080d041^666"CpResource Apple2/temp.jpg build/Debug-iphonesimulator/Apple2.app/temp.jpg    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/temp.jpg /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app36"853AFEF2-4C04-4402-AFC5-FF56FD08AB98-
+
+CGenerateDSYMFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app.dSYM /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2
+s377326754.246802
+e377326754.392132
+r1
+xGenerateDSYMFile
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app.dSYM
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Generating /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app.dSYMc05c3fa28c7db641^d36664a28c7db641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app.dSYM000000000080d041^724"GenerateDSYMFile build/Debug-iphonesimulator/Apple2.app.dSYM build/Debug-iphonesimulator/Apple2.app/Apple2    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2 -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app.dSYM36"322B48A0-4CE8-4C45-BC45-86223F0CF9B1-
+
+CLd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2 normal i386
+s377326754.202323
+e377326754.239544
+r1
+xLd
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple2
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple225e833a28c7db641^ac533da28c7db641^---0#0#0#--1375"Ld build/Debug-iphonesimulator/Apple2.app/Apple2 normal i386    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator -filelist /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Objects-normal/i386/Apple2.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -lsqlite3 -framework AssetsLibrary -framework UIKit -framework Foundation -framework CoreGraphics -framework AssetsLibrary -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Apple236"DC596CD8-7943-4040-980E-FD9D2CFFCD5C-
+
+CProcessInfoPlistFile /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Info.plist Apple2/Apple2-Info.plist
+s377326753.117693
+e377326753.121125
+r1
+xProcessInfoPlistFile
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Info.plist
+xApple2/Apple2-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process Apple2/Apple2-Info.plist3b3a1ea18c7db641^fa431fa18c7db641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Apple2-Info.plist0000000000000000^748"ProcessInfoPlistFile build/Debug-iphonesimulator/Apple2.app/Info.plist Apple2/Apple2-Info.plist    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Apple2/Apple2-Info.plist -genpkginfo /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app/Info.plist36"04EE0195-A487-4089-9720-6B4E3E1C9D8C-
+
+CProcessPCH /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/DerivedData/Apple2/Index/PrecompiledHeaders/Apple2-Prefix-cvmpgqahxxlzjmgddkvaxudmjgjc_ast/Apple2-Prefix.pch.pth Apple2/Apple2-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.pth Apple2/Apple2-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s377326753.129458
+e377326753.430911
+r1
+xProcessPCH
+x/var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.pth
+xApple2/Apple2-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Apple2/Apple2-Prefix.pchbb4421a18c7db641^ca4f6ea18c7db641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Apple2-Prefix.pch0000000000000000^3837"ProcessPCH /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.pth Apple2/Apple2-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-generated-files.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-own-target-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-all-target-headers.hmap -iquote /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/Apple2-project-headers.hmap -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources/i386 -I/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Apple2.build/Debug-iphonesimulator/Apple2.build/DerivedSources -F/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.dia -c /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/Apple2/Apple2-Prefix.pch -o /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sv/zjvspwkx5b9dl09vww6gt8cc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Apple2-Prefix-exfjumlxyfyumudfytgudevsvjmv/Apple2-Prefix.pch.d36"74871B1D-79E1-4A16-AC4C-50F12A6B39DF-
+
+CTouch /Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app
+s377326757.107968
+e377326757.120223
+r1
+xTouch
+x/Users/jhsiao/Documents/Education/cs465/Project/ExpenseShare/ExpenseShare/build/Debug-iphonesimulator/Apple2.app
+
