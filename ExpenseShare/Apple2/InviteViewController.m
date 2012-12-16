@@ -81,8 +81,17 @@
     else
         NSLog(@"why in invite");
     NSLog(@"%s", __FUNCTION__);
-    if (![txtInviteEmail.text isEqualToString:@""]) {
+    if (![txtInviteEmail.text isEqualToString:@""] && NSNotFound != [txtInviteEmail.text rangeOfString:@"@"].location) {
         [self.delegate updateMembers:txtInviteEmail.text];
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error"
+                                                       message:@"Bad email format."
+                                                      delegate:self
+                                             cancelButtonTitle:nil
+                                             otherButtonTitles:@"OK",nil];
+        [alert show];   
     }
 
     [self dismissModalViewControllerAnimated:YES];
